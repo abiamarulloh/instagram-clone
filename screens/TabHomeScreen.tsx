@@ -9,7 +9,7 @@ import { RootTabScreenProps } from '../types';
 export default function TabHomeScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
   const [isLoading, setLoading] = useState(true);
   const [dataStories, setDataStories] = useState([]);
-  const getMovies = async () => {
+  const getUserStories = async () => {
      try {
         const response = await fetch('https://raw.githubusercontent.com/abiamarulloh/instagram-clone/master/assets/data/stories.json');
         const json = await response.json();
@@ -22,7 +22,7 @@ export default function TabHomeScreen({ navigation }: RootTabScreenProps<'TabOne
   }
 
   useEffect(() => {
-    getMovies();
+    getUserStories();
   }, []);
 
   const ItemView = (item: any) => {
@@ -54,10 +54,24 @@ export default function TabHomeScreen({ navigation }: RootTabScreenProps<'TabOne
         </View>
       </View>
 
-      <SafeAreaView style={styles.containerStories}>
-        <ScrollView horizontal={true}>
-           {isLoading ? <Text>Loading...</Text>  : dataStories.map(ItemView) }
-        </ScrollView>
+      <SafeAreaView>     
+        <View style={{height: 100}}>
+          <ScrollView style={styles.containerStories} horizontal={true} >
+              {isLoading ? <Text>Loading...</Text>  : dataStories.map(ItemView) }
+          </ScrollView>
+        </View>
+
+        <View style={{marginTop: 10}}>
+            <ScrollView style={styles.containerFeeds}>
+              <View>
+                <View>
+                  <Image source={{uri: "https://avatars.githubusercontent.com/u/32256117?v=4"}} />
+                  <Text>Abi Amarulloh</Text>
+                </View>
+                <Image source={{uri: "https://images.unsplash.com/photo-1518986762393-2a8362ee6fb9?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"}} />
+              </View>
+            </ScrollView>
+        </View>
       </SafeAreaView>
   </View>
   );
@@ -86,7 +100,6 @@ const styles = StyleSheet.create({
   storyUserWrap: {
     width: 60,
     height: 60,
-    border: 1,
     borderRadius: 100,
     margin: 5,
     flexDirection: 'row',
@@ -96,7 +109,6 @@ const styles = StyleSheet.create({
   storyUser: {
     width: 56,
     height: 56,
-    border: 1,
     borderRadius: 100,
     flexDirection: 'row',
     justifyContent: 'center',
@@ -109,8 +121,11 @@ const styles = StyleSheet.create({
   storyUserImg: {
     width: 52,
     height: 52,
-    border: 1,
     borderRadius: 100,
+  },
+  containerFeeds: {
+    paddingLeft: 15,
+    paddingRight: 15,
   }
   
 });
