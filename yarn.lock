@@ -3715,6 +3715,11 @@ expo-keep-awake@~10.1.1:
   resolved "https://registry.yarnpkg.com/expo-keep-awake/-/expo-keep-awake-10.1.1.tgz#03023c130f7e3824b738e3fdd5353b8a2c0c1980"
   integrity sha512-9zC0sdhQljUeMr2yQ7o4kzEZXVAy82fFOAZE1+TwPL7qR0b0sphe7OJ5T1GX1qLcwuVaJ8YewaPoLSHRk79+Rg==
 
+expo-linear-gradient@~11.3.0:
+  version "11.3.0"
+  resolved "https://registry.yarnpkg.com/expo-linear-gradient/-/expo-linear-gradient-11.3.0.tgz#855f470c9684f5b979c3c1be0ed1fe1943d57158"
+  integrity sha512-gm0cULqE5cTP39HZHi+eCGgQ2qMcwym92DwSzRpA5nA4Ah5oKksV+PwD7zzo6YJt3X3lgqrTYEqts9VQISCTgw==
+
 expo-linking@~3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/expo-linking/-/expo-linking-3.1.0.tgz#ac16aa976531c6a3e165333670b0e12975b4dfa4"
@@ -6885,6 +6890,11 @@ react-native-gradle-plugin@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.6.tgz#b61a9234ad2f61430937911003cddd7e15c72b45"
   integrity sha512-eIlgtsmDp1jLC24dRn43hB3kEcZVqx6DUQbR0N1ABXGnMEafm9I3V3dUUeD1vh+Dy5WqijSoEwLNUPLgu5zDMg==
+
+react-native-linear-gradient@^2.5.6:
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/react-native-linear-gradient/-/react-native-linear-gradient-2.5.6.tgz#96215cbc5ec7a01247a20890888aa75b834d44a0"
+  integrity sha512-HDwEaXcQIuXXCV70O+bK1rizFong3wj+5Q/jSyifKFLg0VWF95xh8XQgfzXwtq0NggL9vNjPKXa016KuFu+VFg==
 
 react-native-safe-area-context@4.2.4:
   version "4.2.4"
