@@ -11,9 +11,9 @@ export default function TabHomeScreen({ navigation }: RootTabScreenProps<'TabOne
   const [dataStories, setDataStories] = useState([]);
   const getMovies = async () => {
      try {
-        const response = await fetch('https://reactnative.dev/movies.json');
+        const response = await fetch('https://raw.githubusercontent.com/abiamarulloh/instagram-clone/master/assets/data/stories.json');
         const json = await response.json();
-        setDataStories(json.movies);
+        setDataStories(json.data);
       } catch (error) {
         console.error(error);
       } finally {
@@ -27,12 +27,13 @@ export default function TabHomeScreen({ navigation }: RootTabScreenProps<'TabOne
 
   const ItemView = (item: any, key: any) => {
     return (
-      <View>
+      <View style={{ flexDirection: 'column', alignItems: 'center' }}>
         <LinearGradient key={key} style={styles.storyUserWrap} colors={['orange', 'red']}>
             <View style={styles.storyUser}>
+
             </View>
         </LinearGradient> 
-        <Text>{item.title}</Text>
+        <Text>{item.username}</Text>
       </View>
     );
   };
@@ -48,7 +49,7 @@ export default function TabHomeScreen({ navigation }: RootTabScreenProps<'TabOne
         </View>
       </View>
 
-      <SafeAreaView style={styles.container}>
+      <SafeAreaView style={styles.containerStories}>
         <ScrollView horizontal={true}>
            {isLoading ? <Text>Loading...</Text>  : dataStories.map(ItemView) }
         </ScrollView>
@@ -92,6 +93,10 @@ const styles = StyleSheet.create({
     height: 56,
     border: 1,
     borderRadius: 100,
+  },
+  containerStories: {
+    paddingLeft: 15,
+    paddingRight: 15,
   }
   
 });
