@@ -27,17 +27,16 @@ export default function TabHomeScreen({ navigation }: RootTabScreenProps<'TabOne
 
   const ItemView = (item: any) => {
     return (
-      <View style={{ flexDirection: 'column', alignItems: 'center' }}>
-        <LinearGradient key={item.id} style={styles.storyUserWrap} colors={['orange', 'red']}>
-            {/* <View style={styles.storyUser}>
-             
-            </View> */}
+      <View key={item.id} style={{ flexDirection: 'column', alignItems: 'center' }}>
+        <LinearGradient style={styles.storyUserWrap} colors={['orange', 'red']}>
+            <View style={styles.storyUser}>
              <Image
                 style={styles.storyUserImg}
                 source={{
                   uri: item?.image
                 }}
               />
+            </View>
         </LinearGradient> 
         <Text>{item?.username}</Text>
       </View>
@@ -99,15 +98,17 @@ const styles = StyleSheet.create({
     height: 56,
     border: 1,
     borderRadius: 100,
-    opacity: 0.8
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   containerStories: {
     paddingLeft: 15,
     paddingRight: 15,
   },
   storyUserImg: {
-    width: 54,
-    height: 54,
+    width: 52,
+    height: 52,
     border: 1,
     borderRadius: 100,
   }
