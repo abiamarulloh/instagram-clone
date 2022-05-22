@@ -1,7 +1,7 @@
 import { FontAwesome } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useEffect, useState } from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
+import { Image, ScrollView, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Text, View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
@@ -25,15 +25,21 @@ export default function TabHomeScreen({ navigation }: RootTabScreenProps<'TabOne
     getMovies();
   }, []);
 
-  const ItemView = (item: any, key: any) => {
+  const ItemView = (item: any) => {
     return (
       <View style={{ flexDirection: 'column', alignItems: 'center' }}>
-        <LinearGradient key={key} style={styles.storyUserWrap} colors={['orange', 'red']}>
-            <View style={styles.storyUser}>
-
-            </View>
+        <LinearGradient key={item.id} style={styles.storyUserWrap} colors={['orange', 'red']}>
+            {/* <View style={styles.storyUser}>
+             
+            </View> */}
+             <Image
+                style={styles.storyUserImg}
+                source={{
+                  uri: item?.image
+                }}
+              />
         </LinearGradient> 
-        <Text>{item.username}</Text>
+        <Text>{item?.username}</Text>
       </View>
     );
   };
@@ -93,10 +99,17 @@ const styles = StyleSheet.create({
     height: 56,
     border: 1,
     borderRadius: 100,
+    opacity: 0.8
   },
   containerStories: {
     paddingLeft: 15,
     paddingRight: 15,
+  },
+  storyUserImg: {
+    width: 54,
+    height: 54,
+    border: 1,
+    borderRadius: 100,
   }
   
 });
