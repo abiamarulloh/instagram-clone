@@ -10,7 +10,7 @@ import SubHeader from '../components/SubHeader';
 import { Text, View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
 
-export default function TabHomeScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
+export default function TabHomeScreen({ navigation }: RootTabScreenProps<'TabHome'>) {
   const [isLoading, setLoading] = useState(true);
   const [dataStories, setDataStories] = useState([]);
   const getUserStories = async () => {

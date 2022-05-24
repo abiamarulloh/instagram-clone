@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { Text, View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
 
-export default function TabProfileScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
+export default function TabProfileScreen({ navigation }: RootTabScreenProps<'TabProfile'>) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab Profile</Text>

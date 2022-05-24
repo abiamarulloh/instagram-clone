@@ -20,11 +20,6 @@ const linking: LinkingOptions<RootStackParamList> = {
               TabHomeScreen: "home",
             },
           },
-          TabExplore: {
-            screens: {
-              TabExploreScreen: "explore",
-            },
-          },
           TabProfile: {
             screens: {
               TabProfileScreen: "profile",

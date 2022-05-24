@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { Text, View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
 
-export default function TabCartScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
+export default function TabCartScreen({ navigation }: RootTabScreenProps<'TabCart'>) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab Cart</Text>
