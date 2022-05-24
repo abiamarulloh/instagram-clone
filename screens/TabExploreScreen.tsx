@@ -8,7 +8,6 @@ export default function TabExploreScreen({ navigation }: RootTabScreenProps<'Tab
     <View style={styles.container}>
       <Text style={styles.title}>Tab Explore</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      {/* <EditScreenInfo path="/screens/TabOneScreen.tsx" /> */}
     </View>
   );
 }

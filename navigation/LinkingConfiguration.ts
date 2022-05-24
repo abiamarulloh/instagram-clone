@@ -30,6 +30,16 @@ const linking: LinkingOptions<RootStackParamList> = {
               TabProfileScreen: "profile",
             },
           },
+          TabCart: {
+            screens: {
+              TabCartScreen: "cart",
+            },
+          },
+          TabFavorite: {
+            screens: {
+              TabFavoriteScreen: "favorite",
+            },
+          },
         },
       },
       Modal: "modal",

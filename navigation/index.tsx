@@ -14,7 +14,8 @@ import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
 import ModalScreen from '../screens/ModalScreen';
 import NotFoundScreen from '../screens/NotFoundScreen';
-import TabExploreScreen from '../screens/TabExploreScreen';
+import TabCartScreen from '../screens/TabCartScreen';
+import TabFavoriteScreen from '../screens/TabFavoriteScreen';
 import TabHomeScreen from '../screens/TabHomeScreen';
 import TabProfileScreen from '../screens/TabProfileScreen';
 import { RootStackParamList, RootTabParamList } from '../types';
@@ -72,11 +73,19 @@ function BottomTabNavigator() {
         }}
       />
       <BottomTab.Screen
-        name="TabExplore"
-        component={TabExploreScreen}
+        name="TabCart"
+        component={TabCartScreen}
         options={{
           title: '',
-          tabBarIcon: ({ color }) => <TabBarIcon name="search" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="cart-plus" color={color} />,
+        }}
+      />
+      <BottomTab.Screen
+        name="TabWishList"
+        component={TabFavoriteScreen}
+        options={{
+          title: '',
+          tabBarIcon: ({ color }) => <TabBarIcon name="heart-o" color={color} />,
         }}
       />
       <BottomTab.Screen
@@ -98,5 +107,5 @@ function TabBarIcon(props: {
   name: React.ComponentProps<typeof FontAwesome>['name'];
   color: string;
 }) {
-  return <FontAwesome size={30} style={{ marginTop: 5 }} {...props} />;
+  return <FontAwesome size={30} style={{ marginTop: 5, fontSize: 20 }} {...props} />;
 }
