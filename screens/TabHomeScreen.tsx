@@ -3,6 +3,10 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { useEffect, useState } from 'react';
 import { Image, ScrollView, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import Gap from '../components/Gap';
+import HeaderTopBar from '../components/HeaderTopBar';
+import ProductGrid from '../components/ProductGrid';
+import SubHeader from '../components/SubHeader';
 import { Text, View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
 
@@ -45,33 +49,29 @@ export default function TabHomeScreen({ navigation }: RootTabScreenProps<'TabOne
 
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
-        <Text style={styles.title}>Instagram</Text>
-        <View style={styles.tabHeader}>
-          <TabBarIcon name="plus" color="grey" />
-          <TabBarIcon name="heart-o" color="grey" />
-          <TabBarIcon name="comments" color="grey" />
-        </View>
-      </View>
+      <Gap height={10} />
 
-      <SafeAreaView>     
-        <View style={{height: 100}}>
-          <ScrollView style={styles.containerStories} horizontal={true} >
-              {isLoading ? <Text>Loading...</Text>  : dataStories.map(ItemView) }
-          </ScrollView>
-        </View>
+      <HeaderTopBar />
 
-        <View style={{marginTop: 10}}>
-            <ScrollView style={styles.containerFeeds}>
-              <View>
-                <View>
-                  <Image source={{uri: "https://avatars.githubusercontent.com/u/32256117?v=4"}} />
-                  <Text>Abi Amarulloh</Text>
-                </View>
-                <Image source={{uri: "https://images.unsplash.com/photo-1518986762393-2a8362ee6fb9?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"}} />
-              </View>
+      <SafeAreaView>   
+        <ScrollView>
+          <Image style={styles.bannerImage} source={{ uri: 'https://raw.githubusercontent.com/abiamarulloh/simple-ecommerce/master/assets/images/banner-tokopedia.jpeg' }}></Image>
+          
+          <Gap height={20} />
+
+          <SubHeader title="Toko yang sedang live!" icon="tv" />  
+          <View style={{height: 100}}>
+            <ScrollView style={styles.containerStories} horizontal={true} >
+                {isLoading ? <Text>Loading...</Text>  : dataStories.map(ItemView) }
             </ScrollView>
-        </View>
+          </View>
+
+          <Gap height={20} />
+          <SubHeader title="List Produk Terbaru!" icon="list" />  
+          <ProductGrid />
+          <Gap height={200} />
+
+        </ScrollView> 
       </SafeAreaView>
   </View>
   );
@@ -83,19 +83,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-  },
-  header: {
-    width: '100%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    paddingLeft: 15,
-  },
-  tabHeader: {
-    flexDirection: 'row',
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
   },
   storyUserWrap: {
     width: 60,
@@ -112,27 +99,30 @@ const styles = StyleSheet.create({
     borderRadius: 100,
     flexDirection: 'row',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'center'
   },
   containerStories: {
     paddingLeft: 15,
-    paddingRight: 15,
+    paddingRight: 15
   },
   storyUserImg: {
     width: 52,
     height: 52,
-    borderRadius: 100,
+    borderRadius: 100
   },
   containerFeeds: {
     paddingLeft: 15,
-    paddingRight: 15,
+    paddingRight: 15
+  },
+  bannerImage: {
+    flexDirection: 'column',
+    height: 140
   }
-  
 });
 
 function TabBarIcon(props: {
   name: React.ComponentProps<typeof FontAwesome>['name'];
   color: string;
 }) {
-  return <FontAwesome size={20} style={{marginRight: 15}}  {...props} />;
+  return <FontAwesome size={20}   {...props} />;
 }
