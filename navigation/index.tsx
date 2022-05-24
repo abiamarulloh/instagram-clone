@@ -9,7 +9,6 @@ import { DarkTheme, DefaultTheme, NavigationContainer } from '@react-navigation/
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import * as React from 'react';
 import { ColorSchemeName } from 'react-native';
-
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
 import ModalScreen from '../screens/ModalScreen';
@@ -20,6 +19,8 @@ import TabHomeScreen from '../screens/TabHomeScreen';
 import TabProfileScreen from '../screens/TabProfileScreen';
 import { RootStackParamList, RootTabParamList } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
+
+
 
 export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
   return (
@@ -48,6 +49,7 @@ function RootNavigator() {
     </Stack.Navigator>
   );
 }
+
 
 /**
  * A bottom tab navigator displays tab buttons on the bottom of the display to switch screens.
@@ -80,14 +82,16 @@ function BottomTabNavigator() {
           tabBarIcon: ({ color }) => <TabBarIcon name="cart-plus" color={color} />,
         }}
       />
+      
       <BottomTab.Screen
-        name="TabWishList"
+        name="TabFavorite"
         component={TabFavoriteScreen}
         options={{
           title: '',
           tabBarIcon: ({ color }) => <TabBarIcon name="heart-o" color={color} />,
         }}
       />
+      
       <BottomTab.Screen
         name="TabProfile"
         component={TabProfileScreen}
@@ -96,6 +100,7 @@ function BottomTabNavigator() {
           tabBarIcon: ({ color }) => <TabBarIcon name="user" color={color} />,
         }}
       />
+
     </BottomTab.Navigator>
   );
 }

@@ -35,6 +35,11 @@ const linking: LinkingOptions<RootStackParamList> = {
               TabFavoriteScreen: "favorite",
             },
           },
+          TabLogin: {
+            screens: {
+              TabLoginScreen: "login",
+            },
+          },
         },
       },
       Modal: "modal",
