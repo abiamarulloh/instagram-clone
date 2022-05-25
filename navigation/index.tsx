@@ -16,6 +16,7 @@ import NotFoundScreen from '../screens/NotFoundScreen';
 import TabCartScreen from '../screens/TabCartScreen';
 import TabFavoriteScreen from '../screens/TabFavoriteScreen';
 import TabHomeScreen from '../screens/TabHomeScreen';
+import TabLoginScreen from '../screens/TabLoginScreen';
 import TabProfileScreen from '../screens/TabProfileScreen';
 import { RootStackParamList, RootTabParamList } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
@@ -41,6 +42,7 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 function RootNavigator() {
   return (
     <Stack.Navigator>
+      <Stack.Screen name="Auth" component={TabLoginScreen} options={{ headerShown: false }} />
       <Stack.Screen name="Root" component={BottomTabNavigator} options={{ headerShown: false }} />
       <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
       <Stack.Group screenOptions={{ presentation: 'modal' }}>

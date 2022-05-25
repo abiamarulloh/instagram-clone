@@ -15,7 +15,7 @@ export default function TabHomeScreen({ navigation }: RootTabScreenProps<'TabHom
   const [dataStories, setDataStories] = useState([]);
   const getUserStories = async () => {
      try {
-        const response = await fetch('https://raw.githubusercontent.com/abiamarulloh/instagram-clone/master/assets/data/stories.json');
+        const response = await fetch('https://raw.githubusercontent.com/abiamarulloh/instagram-clone/master/assets/data/users.json');
         const json = await response.json();
         setDataStories(json.data);
       } catch (error) {
