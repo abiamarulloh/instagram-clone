@@ -1,21 +1,84 @@
 import React from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import {StyleSheet, View, Text, TouchableOpacity, Image} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
-import {colors} from '../../utils';
+import {connect} from 'react-redux';
+import {colors, numberFormat} from '../../utils';
 
-const Cart = ({navigation}) => {
-  return (
-    <View style={styles.page}>
-      <View style={styles.container}>
-        <ScrollView>
-          <Text>Page Cart</Text>
-        </ScrollView>
+class Cart extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  getCart() {
+    const uniqueIds = [];
+    const count = {};
+    const unique = this.props.cartItems.filter(cart => {
+      const isDuplicate = uniqueIds.includes(cart.id);
+      if (!isDuplicate) {
+        uniqueIds.push(cart.id);
+
+        return true;
+      }
+
+      count[cart.id] = (count[cart.id] || 0) + 1;
+      return false;
+    });
+
+    unique.filter(uniqueItem => {
+      uniqueItem.quantity = count[uniqueItem.id];
+    });
+    return unique;
+  }
+
+  render() {
+    const {cartTotal} = this.props;
+    console.log('ini halaman cart ', this.getCart());
+    return (
+      <View style={styles.page}>
+        <View style={styles.container}>
+          <ScrollView>
+            <Text style={styles.titleHead}>Cart</Text>
+
+            <View style={styles.products}>
+              {this.getCart().map(product => {
+                return (
+                  <View key={product.id} style={styles.productItem}>
+                    <Image
+                      style={styles.productImage}
+                      source={{uri: product.thumbnailId}}
+                    />
+                    <Text style={styles.productTitle}>{product.title}</Text>
+                    <View style={styles.productAction}>
+                      <Text style={styles.productPrice}>
+                        {numberFormat(product.price)}
+                      </Text>
+
+                      <Text style={styles.productPrice}>
+                        x{product.quantity}
+                      </Text>
+                    </View>
+                  </View>
+                );
+              })}
+            </View>
+
+            <View style={styles.total}>
+              <Text style={styles.textTotal}>Total</Text>
+              <Text style={styles.textTotal}>{numberFormat(cartTotal)}</Text>
+            </View>
+          </ScrollView>
+        </View>
       </View>
-    </View>
-  );
-};
+    );
+  }
+}
 
-export default Cart;
+const mapStateToProps = state => ({
+  cartItems: state.cart.cart,
+  cartTotal: state.cart.total,
+});
+export default connect(mapStateToProps)(Cart);
+
 const styles = StyleSheet.create({
   page: {
     backgroundColor: colors.secondary,
@@ -28,5 +91,55 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     borderBottomLeftRadius: 24,
     borderBottomRightRadius: 24,
+  },
+  titleHead: {
+    fontSize: 20,
+    fontFamily: 'bold',
+    marginBottom: 20,
+    color: colors.text.primary,
+  },
+  products: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+  },
+  productItem: {
+    width: 180,
+    height: 'auto',
+    marginBottom: 25,
+  },
+  productTitle: {
+    fontSize: 12,
+    marginBottom: 5,
+    marginTop: 10,
+    height: 30,
+  },
+  productImage: {
+    width: 180,
+    height: 180,
+    borderRadius: 10,
+  },
+  productPrice: {
+    fontSize: 12,
+  },
+  productAction: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  productATC: {
+    fontSize: 12,
+    fontWeight: 'bold',
+  },
+  total: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  textTotal: {
+    fontSize: 12,
+    marginBottom: 5,
+    fontWeight: 'bold',
+    marginTop: 50,
+    height: 30,
   },
 });
