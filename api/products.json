@@ -1,0 +1,4167 @@
+{
+  "timestamp": 1657766570622,
+  "code": "OK",
+  "status": 200,
+  "data": {
+    "content": [
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 288,
+        "title": "Evalynn Gingham Fit & Flare Dress",
+        "price": 100000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/2fa5d5a9-757b-451a-8942-7cd497ca9c29.png",
+        "categoryName": "DRESS",
+        "variants": [
+          {
+            "id": 1243,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 482,
+            "price": 100000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/18888ebb-469d-4351-a665-84422de3e255.png",
+              "https://idekustatic.xyz/images/600/product-variant/58c90038-ed73-49c8-a3d2-81d8c34715e4.png",
+              "https://idekustatic.xyz/images/600/product-variant/982115f1-2df3-4140-9a34-9ca9f43d27dd.png"
+            ]
+          },
+          {
+            "id": 1248,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 500,
+            "price": 100000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1244,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 498,
+            "price": 110000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/18888ebb-469d-4351-a665-84422de3e255.png",
+              "https://idekustatic.xyz/images/600/product-variant/58c90038-ed73-49c8-a3d2-81d8c34715e4.png",
+              "https://idekustatic.xyz/images/600/product-variant/982115f1-2df3-4140-9a34-9ca9f43d27dd.png"
+            ]
+          },
+          {
+            "id": 1249,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 500,
+            "price": 110000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1245,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 498,
+            "price": 120000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/18888ebb-469d-4351-a665-84422de3e255.png",
+              "https://idekustatic.xyz/images/600/product-variant/58c90038-ed73-49c8-a3d2-81d8c34715e4.png",
+              "https://idekustatic.xyz/images/600/product-variant/982115f1-2df3-4140-9a34-9ca9f43d27dd.png"
+            ]
+          },
+          {
+            "id": 1250,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 500,
+            "price": 120000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1246,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 495,
+            "price": 130000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/18888ebb-469d-4351-a665-84422de3e255.png",
+              "https://idekustatic.xyz/images/600/product-variant/58c90038-ed73-49c8-a3d2-81d8c34715e4.png",
+              "https://idekustatic.xyz/images/600/product-variant/982115f1-2df3-4140-9a34-9ca9f43d27dd.png"
+            ]
+          },
+          {
+            "id": 1251,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 499,
+            "price": 130000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1247,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 499,
+            "price": 140000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/18888ebb-469d-4351-a665-84422de3e255.png",
+              "https://idekustatic.xyz/images/600/product-variant/58c90038-ed73-49c8-a3d2-81d8c34715e4.png",
+              "https://idekustatic.xyz/images/600/product-variant/982115f1-2df3-4140-9a34-9ca9f43d27dd.png"
+            ]
+          },
+          {
+            "id": 1252,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 500,
+            "price": 140000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "evalynn-gingham-fit--flare-dress",
+        "stock": 4974,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 289,
+        "title": "Arlenis Padded Cross Back Dress",
+        "price": 100000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/a3678463-4bf0-4c4b-9e6d-d580b0d56fcb.png",
+        "categoryName": "DRESS",
+        "variants": [
+          {
+            "id": 1233,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 48,
+            "price": 100000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/0d4fa338-185d-4a94-87ea-fc13e91b218f.png"
+            ]
+          },
+          {
+            "id": 1238,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 50,
+            "price": 100000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1234,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 50,
+            "price": 110000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/0d4fa338-185d-4a94-87ea-fc13e91b218f.png"
+            ]
+          },
+          {
+            "id": 1239,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 50,
+            "price": 110000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1235,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 49,
+            "price": 120000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/0d4fa338-185d-4a94-87ea-fc13e91b218f.png"
+            ]
+          },
+          {
+            "id": 1240,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 50,
+            "price": 120000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1236,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 48,
+            "price": 130000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/0d4fa338-185d-4a94-87ea-fc13e91b218f.png"
+            ]
+          },
+          {
+            "id": 1241,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 50,
+            "price": 130000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1237,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 49,
+            "price": 140000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/0d4fa338-185d-4a94-87ea-fc13e91b218f.png"
+            ]
+          },
+          {
+            "id": 1242,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 50,
+            "price": 140000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "arlenis-padded-cross-back-dress",
+        "stock": 496,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 292,
+        "title": "Lourdes Tweed Shift Dress",
+        "price": 120000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/efbb4ca9-cbf2-494f-99fa-2a46f2ec13bb.png",
+        "categoryName": "DRESS",
+        "variants": [
+          {
+            "id": 1223,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 49,
+            "price": 120000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1228,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 50,
+            "price": 120000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/530cb138-5083-40ea-8772-ae985840a5d0.png"
+            ]
+          },
+          {
+            "id": 1224,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 50,
+            "price": 130000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1229,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 50,
+            "price": 130000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/530cb138-5083-40ea-8772-ae985840a5d0.png"
+            ]
+          },
+          {
+            "id": 1225,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 50,
+            "price": 140000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1230,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 50,
+            "price": 140000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/530cb138-5083-40ea-8772-ae985840a5d0.png"
+            ]
+          },
+          {
+            "id": 1226,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 50,
+            "price": 150000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1231,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 50,
+            "price": 150000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/530cb138-5083-40ea-8772-ae985840a5d0.png"
+            ]
+          },
+          {
+            "id": 1227,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 50,
+            "price": 160000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1232,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 50,
+            "price": 160000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/530cb138-5083-40ea-8772-ae985840a5d0.png"
+            ]
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "lourdes-tweed-shift-dress",
+        "stock": 499,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 295,
+        "title": "Darina Classic Square Neck Pencil Dress",
+        "price": 120000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/42fd9a91-1498-4646-8d3a-f64ed6d577ca.png",
+        "categoryName": "DRESS",
+        "variants": [
+          {
+            "id": 1213,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 40,
+            "price": 120000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1218,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 50,
+            "price": 120000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1214,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 50,
+            "price": 130000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1219,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 50,
+            "price": 130000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1215,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 49,
+            "price": 140000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1220,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 50,
+            "price": 140000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1216,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 50,
+            "price": 150000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1221,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 50,
+            "price": 150000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1217,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 50,
+            "price": 160000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1222,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 50,
+            "price": 160000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "darina-classic-square-neck-pencil-dress",
+        "stock": 489,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 296,
+        "title": "Amory Swing Tank Lounge Dress in Tuscany Breeze",
+        "price": 120000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/42e687b4-ccbe-4daf-8546-4b3e0e945399.png",
+        "categoryName": "DRESS",
+        "variants": [],
+        "wholesales": [
+          {
+            "minQty": 5,
+            "maxQty": 5,
+            "price": 110000
+          },
+          {
+            "minQty": 6,
+            "maxQty": 90,
+            "price": 105000
+          }
+        ],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "amory-swing-tank-lounge-dress-in-tuscany-breeze",
+        "stock": 81,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 297,
+        "title": "Galen Cuffed Shirt Dress",
+        "price": 43000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/1bd74476-8d97-4eee-a83c-ff0a070d6b02.png",
+        "categoryName": "DRESS",
+        "variants": [
+          {
+            "id": 1188,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 47,
+            "price": 43000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/fbdfc818-5ede-4ab0-ad03-abfd0d19960e.png"
+            ]
+          },
+          {
+            "id": 1193,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 50,
+            "price": 43000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1198,
+            "list": [
+              ["Warna", "Putih Susu"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 50,
+            "price": 43000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1189,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 50,
+            "price": 45000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/fbdfc818-5ede-4ab0-ad03-abfd0d19960e.png"
+            ]
+          },
+          {
+            "id": 1194,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 50,
+            "price": 45000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1199,
+            "list": [
+              ["Warna", "Putih Susu"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 50,
+            "price": 45000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1190,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 50,
+            "price": 47000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/fbdfc818-5ede-4ab0-ad03-abfd0d19960e.png"
+            ]
+          },
+          {
+            "id": 1195,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 49,
+            "price": 47000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1200,
+            "list": [
+              ["Warna", "Putih Susu"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 50,
+            "price": 47000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1191,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 50,
+            "price": 50000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/fbdfc818-5ede-4ab0-ad03-abfd0d19960e.png"
+            ]
+          },
+          {
+            "id": 1196,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 50,
+            "price": 50000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1201,
+            "list": [
+              ["Warna", "Putih Susu"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 50,
+            "price": 50000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1192,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 50,
+            "price": 53000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/fbdfc818-5ede-4ab0-ad03-abfd0d19960e.png"
+            ]
+          },
+          {
+            "id": 1197,
+            "list": [
+              ["Warna", "Grey"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 50,
+            "price": 53000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1202,
+            "list": [
+              ["Warna", "Putih Susu"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 50,
+            "price": 53000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "galen-cuffed-shirt-dress",
+        "stock": 746,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 298,
+        "title": "Relia Ruched Tiered Maxi Dress",
+        "price": 150000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/3066b150-50b9-4bbf-bf2f-ccb86c13d701.png",
+        "categoryName": "DRESS",
+        "variants": [
+          {
+            "id": 1173,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 48,
+            "price": 150000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/cfe06768-3d9b-4ccd-8609-d8ad76bcb7b5.png"
+            ]
+          },
+          {
+            "id": 1178,
+            "list": [
+              ["Warna", "Pink"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 50,
+            "price": 150000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1183,
+            "list": [
+              ["Warna", "Ungu"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 50,
+            "price": 150000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1174,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 50,
+            "price": 160000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/cfe06768-3d9b-4ccd-8609-d8ad76bcb7b5.png"
+            ]
+          },
+          {
+            "id": 1179,
+            "list": [
+              ["Warna", "Pink"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 50,
+            "price": 160000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1184,
+            "list": [
+              ["Warna", "Ungu"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 50,
+            "price": 160000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1175,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 50,
+            "price": 170000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/cfe06768-3d9b-4ccd-8609-d8ad76bcb7b5.png"
+            ]
+          },
+          {
+            "id": 1180,
+            "list": [
+              ["Warna", "Pink"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 50,
+            "price": 170000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1185,
+            "list": [
+              ["Warna", "Ungu"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 50,
+            "price": 170000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1176,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 50,
+            "price": 180000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/cfe06768-3d9b-4ccd-8609-d8ad76bcb7b5.png"
+            ]
+          },
+          {
+            "id": 1181,
+            "list": [
+              ["Warna", "Pink"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 50,
+            "price": 180000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1186,
+            "list": [
+              ["Warna", "Ungu"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 50,
+            "price": 180000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1177,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 50,
+            "price": 190000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/cfe06768-3d9b-4ccd-8609-d8ad76bcb7b5.png"
+            ]
+          },
+          {
+            "id": 1182,
+            "list": [
+              ["Warna", "Pink"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 50,
+            "price": 190000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1187,
+            "list": [
+              ["Warna", "Ungu"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 50,
+            "price": 190000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "relia-ruched-tiered-maxi-dress",
+        "stock": 748,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 299,
+        "title": "Jesva Column Ribbed Dress",
+        "price": 150000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/0dedc078-ce5f-4910-af68-068cc1ea94fb.png",
+        "categoryName": "DRESS",
+        "variants": [
+          {
+            "id": 1169,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 6,
+            "price": 150000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1171,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 93,
+            "price": 150000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/8d3b4a82-4e37-45f3-a411-3fd6833f441c.png"
+            ]
+          },
+          {
+            "id": 1170,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 78,
+            "price": 175000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1172,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 96,
+            "price": 175000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/8d3b4a82-4e37-45f3-a411-3fd6833f441c.png"
+            ]
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "jesva-column-ribbed-dress",
+        "stock": 288,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 301,
+        "title": "Inner Tanpa Lengan Premium - Baju Tanpa Lengan Sleeveless - Atasan Wanita",
+        "price": 59200.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/113c4963-161a-49f2-84e8-a6a54452f673.png",
+        "categoryName": "TOPS",
+        "variants": [
+          {
+            "id": 1162,
+            "list": [
+              ["Warna", "BM"],
+              ["Ukuran", "All Size L to XL"]
+            ],
+            "stock": 99,
+            "price": 59200.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/93fa8b31-e01b-4f16-98e1-a558dc073094.png"
+            ]
+          },
+          {
+            "id": 1164,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "All Size L to XL"]
+            ],
+            "stock": 89,
+            "price": 59200.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1166,
+            "list": [
+              ["Warna", "Rose Pink"],
+              ["Ukuran", "All Size L to XL"]
+            ],
+            "stock": 100,
+            "price": 59200.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1168,
+            "list": [
+              ["Warna", "Dark Grey"],
+              ["Ukuran", "All Size L to XL"]
+            ],
+            "stock": 100,
+            "price": 59200.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1161,
+            "list": [
+              ["Warna", "BM"],
+              ["Ukuran", "All Size S to M"]
+            ],
+            "stock": 64,
+            "price": 75000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/93fa8b31-e01b-4f16-98e1-a558dc073094.png"
+            ]
+          },
+          {
+            "id": 1163,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "All Size S to M"]
+            ],
+            "stock": 100,
+            "price": 75000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1165,
+            "list": [
+              ["Warna", "Rose Pink"],
+              ["Ukuran", "All Size S to M"]
+            ],
+            "stock": 100,
+            "price": 75000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1167,
+            "list": [
+              ["Warna", "Dark Grey"],
+              ["Ukuran", "All Size S to M"]
+            ],
+            "stock": 100,
+            "price": 75000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "inner-tanpa-lengan-premium---baju-tanpa-lengan-sleeveless---atasan-wanita",
+        "stock": 762,
+        "categoryId": 139,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 304,
+        "title": "BALON BLOUSE TOP/LUNE BLOUSE",
+        "price": 80000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/1028905a-9941-49a0-adb3-3c3ff67520fa.png",
+        "categoryName": "TOPS",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "balon-blouse-toplune-blouse",
+        "stock": 88,
+        "categoryId": 139,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 305,
+        "title": "Ruffle Top (W288)",
+        "price": 105000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/fb17801a-4f9a-445d-a7d5-794183b9a0b1.png",
+        "categoryName": "TOPS",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "ruffle-top-w288",
+        "stock": 96,
+        "categoryId": 139,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 307,
+        "title": "Tops",
+        "price": 65000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/3bb303d3-6dce-4dbc-859d-2de61c5c4708.png",
+        "categoryName": "TOPS",
+        "variants": [
+          {
+            "id": 1157,
+            "list": [
+              ["warna", "Putih"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 18,
+            "price": 65000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/97959b5b-38be-42da-a0b3-439dea2aab08.png"
+            ]
+          },
+          {
+            "id": 1159,
+            "list": [
+              ["warna", "Hitam"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 50,
+            "price": 65000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1158,
+            "list": [
+              ["warna", "Putih"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 30,
+            "price": 80000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/97959b5b-38be-42da-a0b3-439dea2aab08.png"
+            ]
+          },
+          {
+            "id": 1160,
+            "list": [
+              ["warna", "Hitam"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 50,
+            "price": 80000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "tops",
+        "stock": 148,
+        "categoryId": 139,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 313,
+        "title": "Sienna Bustier Puff Sleeve Topss",
+        "price": 80000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/37c75a2f-be6d-4336-888b-3dec7928bef0.png",
+        "categoryName": "TOPS",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "sienna-bustier-puff-sleeve-topss",
+        "stock": 8,
+        "categoryId": 139,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 314,
+        "title": "Aleana Bustier Peplum Padded Top",
+        "price": 85000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/995ed796-8d72-41b2-b263-8787ff8ce12f.png",
+        "categoryName": "TOPS",
+        "variants": [
+          {
+            "id": 1149,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 10,
+            "price": 85000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1153,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "XS"]
+            ],
+            "stock": 10,
+            "price": 85000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1150,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 10,
+            "price": 90000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1154,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 10,
+            "price": 90000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1151,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 10,
+            "price": 95000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1155,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 10,
+            "price": 95000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1152,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 10,
+            "price": 100000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1156,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 10,
+            "price": 100000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "aleana-bustier-peplum-padded-top",
+        "stock": 80,
+        "categoryId": 139,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 318,
+        "title": "Yora Pants Kulot",
+        "price": 67275.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/ccbcf852-c9f8-46fc-8ad6-fac607fd09b7.png",
+        "categoryName": "Pants",
+        "variants": [
+          {
+            "id": 1145,
+            "list": [["Warna", "Black"]],
+            "stock": 9,
+            "price": 67275.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1147,
+            "list": [["Warna", "Grey"]],
+            "stock": 10,
+            "price": 67275.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1146,
+            "list": [["Warna", "Mocca"]],
+            "stock": 9,
+            "price": 70000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1148,
+            "list": [["Warna", "Matcha"]],
+            "stock": 10,
+            "price": 70000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "yora-pants-kulot",
+        "stock": 38,
+        "categoryId": 161,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 320,
+        "title": "Loose Pants Trousers",
+        "price": 89000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/d8d7ee7c-da22-4add-b52c-35eb432ca32c.png",
+        "categoryName": "Pants",
+        "variants": [
+          {
+            "id": 1416,
+            "list": [["Warna", "Black"]],
+            "stock": 3,
+            "price": 89000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1417,
+            "list": [["Warna", "Mauve"]],
+            "stock": 3,
+            "price": 89000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1418,
+            "list": [["Warna", "Cream"]],
+            "stock": 5,
+            "price": 89000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "loose-pants-trousers",
+        "stock": 11,
+        "categoryId": 161,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 321,
+        "title": "Indi Hw Kulot",
+        "price": 75000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/b4d73e57-1672-428f-a984-b198110cdd9b.png",
+        "categoryName": "Pants",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "indi-hw-kulot",
+        "stock": 10,
+        "categoryId": 161,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 322,
+        "title": "Oliver Pants",
+        "price": 150000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/d9c7c482-e978-4248-949b-b5ceb805e4d6.png",
+        "categoryName": "Pants",
+        "variants": [
+          {
+            "id": 1130,
+            "list": [
+              ["Warna", "Nude"],
+              ["Ukuran", "All Size"]
+            ],
+            "stock": 10,
+            "price": 150000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1131,
+            "list": [
+              ["Warna", "Brokenwhite"],
+              ["Ukuran", "All Size"]
+            ],
+            "stock": 10,
+            "price": 150000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1132,
+            "list": [
+              ["Warna", "White"],
+              ["Ukuran", "All Size"]
+            ],
+            "stock": 10,
+            "price": 150000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "oliver-pants",
+        "stock": 30,
+        "categoryId": 161,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 338,
+        "title": "Rok Plisket Premium Seri 2",
+        "price": 19720.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/0d72256f-376b-4e9a-b3f1-90cc33b41685.png",
+        "categoryName": "Skirt",
+        "variants": [
+          {
+            "id": 1397,
+            "list": [["Warna", "Navy"]],
+            "stock": 11,
+            "price": 19720.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1398,
+            "list": [["", " Black"]],
+            "stock": 15,
+            "price": 26999.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1399,
+            "list": [["", " Cream"]],
+            "stock": 15,
+            "price": 29640.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1400,
+            "list": [["", " Nude"]],
+            "stock": 15,
+            "price": 29640.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1401,
+            "list": [["", " White"]],
+            "stock": 15,
+            "price": 29640.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1402,
+            "list": [["", " Army"]],
+            "stock": 15,
+            "price": 29640.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "rok-plisket-premium-seri-2",
+        "stock": 86,
+        "categoryId": 185,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 339,
+        "title": "Nintetee-Skirt Invinte Wolf",
+        "price": 100000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/85aad8d5-8603-475f-bbfb-68a3292d71f6.png",
+        "categoryName": "Skirt",
+        "variants": [
+          {
+            "id": 1409,
+            "list": [["", "Blue"]],
+            "stock": 10,
+            "price": 100000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1410,
+            "list": [["", "Whitebrown"]],
+            "stock": 10,
+            "price": 150000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1411,
+            "list": [["", "Navy"]],
+            "stock": 10,
+            "price": 170000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "nintetee-skirt-invinte-wolf",
+        "stock": 30,
+        "categoryId": 185,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 340,
+        "title": "Nintetee Grey Wolfis",
+        "price": 170000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/94cc33cd-de8e-44c9-905d-8812c547e64f.png",
+        "categoryName": "Skirt",
+        "variants": [
+          {
+            "id": 1419,
+            "list": [["Warna", "Grey"]],
+            "stock": 4,
+            "price": 170000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1420,
+            "list": [["Warna", "BrokenWhite"]],
+            "stock": 5,
+            "price": 170000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1421,
+            "list": [["Warna", "Cream"]],
+            "stock": 5,
+            "price": 170000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "nintetee-grey-wolfis",
+        "stock": 14,
+        "categoryId": 185,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 341,
+        "title": "Kasual streetwear",
+        "price": 90000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/731f6639-5f1a-4f8d-adab-307cce4c3c9d.png",
+        "categoryName": "Skirt",
+        "variants": [
+          {
+            "id": 1422,
+            "list": [["Warna", "Army"]],
+            "stock": 1,
+            "price": 90000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1423,
+            "list": [["Warna", "Navy"]],
+            "stock": 2,
+            "price": 90000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1424,
+            "list": [["Warna", "Biru"]],
+            "stock": 2,
+            "price": 90000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "kasual-streetwear",
+        "stock": 5,
+        "categoryId": 185,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 342,
+        "title": "Ruffle Bunga Antik Musim Semi",
+        "price": 193000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/a0bfd240-35c4-4b26-9a1b-107212789326.png",
+        "categoryName": "Skirt",
+        "variants": [
+          {
+            "id": 1464,
+            "list": [["Warna", "Hitam"]],
+            "stock": 0,
+            "price": 193000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1465,
+            "list": [["Warna", "Putih"]],
+            "stock": 0,
+            "price": 193000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "ruffle-bunga-antik-musim-semi",
+        "stock": 0,
+        "categoryId": 185,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 349,
+        "title": "Work Uniform Skirt",
+        "price": 80000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/b4b90c5e-2d06-4c05-a089-0ed577e73aa3.png",
+        "categoryName": "Skirt",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "work-uniform-skirt",
+        "stock": 2,
+        "categoryId": 185,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 352,
+        "title": "Josep Skirt",
+        "price": 48.999,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/cbe5a65f-85f9-4cc5-b9b3-9437c4d8b9b4.png",
+        "categoryName": "Skirt",
+        "variants": [
+          {
+            "id": 1466,
+            "list": [["Warna", "Bata"]],
+            "stock": 5,
+            "price": 48.999,
+            "imageUrl": []
+          },
+          {
+            "id": 1467,
+            "list": [["Warna", "Grey"]],
+            "stock": 5,
+            "price": 48.999,
+            "imageUrl": []
+          },
+          {
+            "id": 1468,
+            "list": [["Warna", "Hitam"]],
+            "stock": 5,
+            "price": 48.999,
+            "imageUrl": []
+          },
+          {
+            "id": 1469,
+            "list": [["Warna", "Lilac"]],
+            "stock": 5,
+            "price": 48.999,
+            "imageUrl": []
+          },
+          {
+            "id": 1470,
+            "list": [["Warna", "Avocado"]],
+            "stock": 5,
+            "price": 48.999,
+            "imageUrl": []
+          },
+          {
+            "id": 1471,
+            "list": [["Warna", "Moca"]],
+            "stock": 5,
+            "price": 48.999,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "josep-skirt",
+        "stock": 30,
+        "categoryId": 185,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 353,
+        "title": "Xandra Skirt",
+        "price": 48999.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/4d1f0cf2-0857-4557-a3cd-a1ae04c941f4.png",
+        "categoryName": "Skirt",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "xandra-skirt",
+        "stock": 0,
+        "categoryId": 185,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 360,
+        "title": "Laura Slim Kulot Highwaist",
+        "price": 44999.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/1183c48e-d91b-48f5-bdae-22638cab900d.png",
+        "categoryName": "Pants",
+        "variants": [
+          {
+            "id": 1484,
+            "list": [
+              ["Warna", "Linen Black"],
+              ["Ukuran", "Fit to XL (M.L.XL)"]
+            ],
+            "stock": 0,
+            "price": 44999.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/8849462d-73b7-4d10-9cfc-aa28e808a5b9.png"
+            ]
+          },
+          {
+            "id": 1485,
+            "list": [
+              ["Warna", "Linen Black"],
+              ["Ukuran", "XXL"]
+            ],
+            "stock": 7,
+            "price": 44999.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/8849462d-73b7-4d10-9cfc-aa28e808a5b9.png"
+            ]
+          },
+          {
+            "id": 1486,
+            "list": [
+              ["Warna", "Linen DarkGrey"],
+              ["Ukuran", "Fit to XL (M.L.XL)"]
+            ],
+            "stock": 7,
+            "price": 44999.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1487,
+            "list": [
+              ["Warna", "Linen Moca"],
+              ["Ukuran", "Fit to XL (M.L.XL)"]
+            ],
+            "stock": 7,
+            "price": 44999.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1489,
+            "list": [
+              ["Warna", "Linen Broken White"],
+              ["Ukuran", "Fit to XL (M.L.XL)"]
+            ],
+            "stock": 5,
+            "price": 45000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/b645a318-ee91-4e23-adc5-2eb6064c1bf5.png"
+            ]
+          },
+          {
+            "id": 1490,
+            "list": [
+              ["Warna", "Linen DarkGrey"],
+              ["Ukuran", "XXL"]
+            ],
+            "stock": 7,
+            "price": 45000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1488,
+            "list": [
+              ["Warna", "Linen Moca"],
+              ["Ukuran", "XXL"]
+            ],
+            "stock": 7,
+            "price": 46000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1491,
+            "list": [
+              ["Warna", "Linen Broken White"],
+              ["Ukuran", "XXL"]
+            ],
+            "stock": 7,
+            "price": 46000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/b645a318-ee91-4e23-adc5-2eb6064c1bf5.png"
+            ]
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "laura-slim-kulot-highwaist",
+        "stock": 47,
+        "categoryId": 161,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 361,
+        "title": "Felicia High Waist Long Kulot",
+        "price": 80000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/7607965b-7a86-4def-9032-6618130080dd.png",
+        "categoryName": "Pants",
+        "variants": [
+          {
+            "id": 1492,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 0,
+            "price": 80000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1496,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 0,
+            "price": 80000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1500,
+            "list": [
+              ["Warna", "Moca"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 3,
+            "price": 80000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1493,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 4,
+            "price": 95000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1494,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 7,
+            "price": 95000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1495,
+            "list": [
+              ["Warna", "Hitam"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 5,
+            "price": 95000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1497,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 7,
+            "price": 95000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1498,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 6,
+            "price": 95000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1499,
+            "list": [
+              ["Warna", "Putih"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 7,
+            "price": 95000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1501,
+            "list": [
+              ["Warna", "Moca"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 7,
+            "price": 95000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1502,
+            "list": [
+              ["Warna", "Moca"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 7,
+            "price": 95000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1503,
+            "list": [
+              ["Warna", "Moca"],
+              ["Ukuran", "XL"]
+            ],
+            "stock": 7,
+            "price": 95000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "felicia-high-waist-long-kulot",
+        "stock": 60,
+        "categoryId": 161,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 362,
+        "title": "Rok flisket",
+        "price": 50000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/16a96b25-57bd-4dee-ae40-1912c1220cfa.png",
+        "categoryName": "Skirt",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "rok-flisket",
+        "stock": 0,
+        "categoryId": 185,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 366,
+        "title": "Masita Midi Dress",
+        "price": 69999.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/1c770b30-18ef-417b-bcab-4bc6a8c32ad1.png",
+        "categoryName": "DRESS",
+        "variants": [
+          {
+            "id": 1527,
+            "list": [
+              ["Ukuran", "All Size"],
+              ["Warna", "Masita Midi Avocado"]
+            ],
+            "stock": 0,
+            "price": 69999.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/52d2c86f-8fb6-4fd4-9149-59760ca2ca63.png",
+              "https://idekustatic.xyz/images/600/product-variant/4500442f-d147-4dca-9d6a-861ea56ab907.png",
+              "https://idekustatic.xyz/images/600/product-variant/4a0e7279-d3f5-4cd2-b6de-4af5f554abd3.png"
+            ]
+          },
+          {
+            "id": 1528,
+            "list": [
+              ["Ukuran", "All Size"],
+              ["Warna", "Masita Midi Milo"]
+            ],
+            "stock": 14,
+            "price": 69999.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/52d2c86f-8fb6-4fd4-9149-59760ca2ca63.png",
+              "https://idekustatic.xyz/images/600/product-variant/4500442f-d147-4dca-9d6a-861ea56ab907.png",
+              "https://idekustatic.xyz/images/600/product-variant/4a0e7279-d3f5-4cd2-b6de-4af5f554abd3.png"
+            ]
+          },
+          {
+            "id": 1529,
+            "list": [
+              ["Ukuran", "All Size"],
+              ["Warna", "Masita Midi Cream"]
+            ],
+            "stock": 14,
+            "price": 69999.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/52d2c86f-8fb6-4fd4-9149-59760ca2ca63.png",
+              "https://idekustatic.xyz/images/600/product-variant/4500442f-d147-4dca-9d6a-861ea56ab907.png",
+              "https://idekustatic.xyz/images/600/product-variant/4a0e7279-d3f5-4cd2-b6de-4af5f554abd3.png"
+            ]
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "masita-midi-dress",
+        "stock": 28,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 367,
+        "title": "Lien Dress",
+        "price": 400000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/d054d9a3-a56c-4144-9ac0-f30b0d9e76fe.png",
+        "categoryName": "DRESS",
+        "variants": [
+          {
+            "id": 1657,
+            "list": [
+              ["Ukuran", "All Size (S.M.L)"],
+              ["Warna", "Merah"]
+            ],
+            "stock": 4,
+            "price": 400000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/890b6441-d2c7-477f-8d76-501a76b37726.png",
+              "https://idekustatic.xyz/images/600/product-variant/d9aee54c-3c83-442c-859a-9d2a4092c9a4.png",
+              "https://idekustatic.xyz/images/600/product-variant/4df1eafd-23cc-40ce-99d9-ef3b76543dc9.png",
+              "https://idekustatic.xyz/images/600/product-variant/7cbe6b45-9d34-4a7c-8bf9-2a4015198649.png"
+            ]
+          },
+          {
+            "id": 1658,
+            "list": [
+              ["Ukuran", "All Size (S.M.L)"],
+              ["Warna", "Putih"]
+            ],
+            "stock": 6,
+            "price": 400000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/890b6441-d2c7-477f-8d76-501a76b37726.png",
+              "https://idekustatic.xyz/images/600/product-variant/d9aee54c-3c83-442c-859a-9d2a4092c9a4.png",
+              "https://idekustatic.xyz/images/600/product-variant/4df1eafd-23cc-40ce-99d9-ef3b76543dc9.png",
+              "https://idekustatic.xyz/images/600/product-variant/7cbe6b45-9d34-4a7c-8bf9-2a4015198649.png"
+            ]
+          },
+          {
+            "id": 1659,
+            "list": [
+              ["Ukuran", "All Size (S.M.L)"],
+              ["Warna", "Matcha"]
+            ],
+            "stock": 6,
+            "price": 400000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/890b6441-d2c7-477f-8d76-501a76b37726.png",
+              "https://idekustatic.xyz/images/600/product-variant/d9aee54c-3c83-442c-859a-9d2a4092c9a4.png",
+              "https://idekustatic.xyz/images/600/product-variant/4df1eafd-23cc-40ce-99d9-ef3b76543dc9.png",
+              "https://idekustatic.xyz/images/600/product-variant/7cbe6b45-9d34-4a7c-8bf9-2a4015198649.png"
+            ]
+          },
+          {
+            "id": 1660,
+            "list": [
+              ["Ukuran", "All Size (S.M.L)"],
+              ["Warna", "Dark Cream"]
+            ],
+            "stock": 4,
+            "price": 400000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/890b6441-d2c7-477f-8d76-501a76b37726.png",
+              "https://idekustatic.xyz/images/600/product-variant/d9aee54c-3c83-442c-859a-9d2a4092c9a4.png",
+              "https://idekustatic.xyz/images/600/product-variant/4df1eafd-23cc-40ce-99d9-ef3b76543dc9.png",
+              "https://idekustatic.xyz/images/600/product-variant/7cbe6b45-9d34-4a7c-8bf9-2a4015198649.png"
+            ]
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "lien-dress",
+        "stock": 20,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 513,
+        "title": "Benhill Kemeja Wanita \" Seori\" Tops Lengan Panjang Puff Off White",
+        "price": 159000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/81641b2d-fb52-44d4-a36a-1e21470744fe.png",
+        "categoryName": "Kemeja",
+        "variants": [
+          {
+            "id": 2051,
+            "list": [["Ukuran", "S"]],
+            "stock": 71,
+            "price": 159000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/9d55a188-3c00-43a2-9abb-99b019e9cd49.png"
+            ]
+          },
+          {
+            "id": 2052,
+            "list": [["Ukuran", "M"]],
+            "stock": 75,
+            "price": 159000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/20c2abc3-b3be-4251-9b97-a87c372dbd4f.png"
+            ]
+          },
+          {
+            "id": 2053,
+            "list": [["Ukuran", "L"]],
+            "stock": 75,
+            "price": 159000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/8d62800f-268b-4ba1-beea-e1df0c611f60.png"
+            ]
+          },
+          {
+            "id": 2054,
+            "list": [["Ukuran", "XL"]],
+            "stock": 75,
+            "price": 159000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/b4225e45-06f6-450b-9e75-6066ff60d09b.png"
+            ]
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "benhill-kemeja-wanita--seori-tops-lengan-panjang-puff-off-white",
+        "stock": 296,
+        "categoryId": 255,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 369,
+        "title": "bb",
+        "price": 5.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/151c6dfa-1156-4a1f-9109-e801c72c89bf.png",
+        "categoryName": "DRESS",
+        "variants": [
+          {
+            "id": 1537,
+            "list": [["warna", "bb"]],
+            "stock": 1,
+            "price": 5.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1538,
+            "list": [["", "cc"]],
+            "stock": 5,
+            "price": 5.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "bb",
+        "stock": 6,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 370,
+        "title": "product",
+        "price": 3.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/1864df25-d51a-48a7-8a5a-43f9c7cda8f1.png",
+        "categoryName": "DRESS",
+        "variants": [
+          {
+            "id": 1539,
+            "list": [
+              ["warna", "bb"],
+              ["ukuran", "a"]
+            ],
+            "stock": 3,
+            "price": 3.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1540,
+            "list": [
+              ["warna", "bb"],
+              ["ukuran", "b"]
+            ],
+            "stock": 3,
+            "price": 3.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1541,
+            "list": [
+              ["warna", "bb"],
+              ["ukuran", "c"]
+            ],
+            "stock": 3,
+            "price": 3.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1542,
+            "list": [
+              ["warna", "cc"],
+              ["ukuran", "a"]
+            ],
+            "stock": 3,
+            "price": 3.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1543,
+            "list": [
+              ["warna", "cc"],
+              ["ukuran", "b"]
+            ],
+            "stock": 3,
+            "price": 3.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1544,
+            "list": [
+              ["warna", "cc"],
+              ["ukuran", "c"]
+            ],
+            "stock": 3,
+            "price": 3.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "product",
+        "stock": 18,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 378,
+        "title": "Baseball BRTXN Ring",
+        "price": 9999.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/943401ac-19fb-4909-a166-6d6445839bad.png",
+        "categoryName": "Topi",
+        "variants": [
+          {
+            "id": 1647,
+            "list": [["warna", "black"]],
+            "stock": 1,
+            "price": 9999.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1648,
+            "list": [["warna", " cream"]],
+            "stock": 7,
+            "price": 9999.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/ade7cb71-c359-4e0e-b84e-71c3e27454fc.png"
+            ]
+          },
+          {
+            "id": 1649,
+            "list": [["warna", " white"]],
+            "stock": 7,
+            "price": 9999.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/d86684fa-cd4d-4d25-aef9-9893858afd26.png"
+            ]
+          },
+          {
+            "id": 1650,
+            "list": [["warna", " navy"]],
+            "stock": 6,
+            "price": 9999.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/a686e974-afbc-40b8-82e5-8bba763aeb94.png"
+            ]
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "baseball-brtxn-ring",
+        "stock": 21,
+        "categoryId": 210,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 372,
+        "title": "variasi",
+        "price": 1.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/b403d853-1000-48d2-a237-f511e228b625.png",
+        "categoryName": "TOPS",
+        "variants": [
+          {
+            "id": 1549,
+            "list": [
+              ["warna", "a"],
+              ["ukuran", "c"]
+            ],
+            "stock": 1,
+            "price": 1.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1550,
+            "list": [
+              ["warna", "a"],
+              ["ukuran", "d"]
+            ],
+            "stock": 1,
+            "price": 1.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1551,
+            "list": [
+              ["warna", "b"],
+              ["ukuran", "c"]
+            ],
+            "stock": 1,
+            "price": 1.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1552,
+            "list": [
+              ["warna", "b"],
+              ["ukuran", "d"]
+            ],
+            "stock": 1,
+            "price": 1.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "variasi",
+        "stock": 4,
+        "categoryId": 139,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 379,
+        "title": "Ukuran banyak",
+        "price": 80000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/07517c56-5039-4f73-9e94-d7b261666d52.png",
+        "categoryName": "DRESS",
+        "variants": [
+          {
+            "id": 1665,
+            "list": [
+              ["Ukuran", "S"],
+              ["Warna", "Merah"]
+            ],
+            "stock": 5,
+            "price": 80000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/2bd964af-3663-4c55-a161-c16c34fd319c.png"
+            ]
+          },
+          {
+            "id": 1666,
+            "list": [
+              ["Ukuran", "S"],
+              ["Warna", "Grey"]
+            ],
+            "stock": 5,
+            "price": 80000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/2bd964af-3663-4c55-a161-c16c34fd319c.png"
+            ]
+          },
+          {
+            "id": 1667,
+            "list": [
+              ["Ukuran", "S"],
+              ["Warna", "Mint"]
+            ],
+            "stock": 5,
+            "price": 80000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/2bd964af-3663-4c55-a161-c16c34fd319c.png"
+            ]
+          },
+          {
+            "id": 1668,
+            "list": [
+              ["Ukuran", "M"],
+              ["Warna", "Merah"]
+            ],
+            "stock": 5,
+            "price": 80000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/b79bf3ad-c582-421f-8897-a1c7699d01b4.png"
+            ]
+          },
+          {
+            "id": 1669,
+            "list": [
+              ["Ukuran", "M"],
+              ["Warna", "Grey"]
+            ],
+            "stock": 5,
+            "price": 80000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/b79bf3ad-c582-421f-8897-a1c7699d01b4.png"
+            ]
+          },
+          {
+            "id": 1670,
+            "list": [
+              ["Ukuran", "M"],
+              ["Warna", "Mint"]
+            ],
+            "stock": 5,
+            "price": 80000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/b79bf3ad-c582-421f-8897-a1c7699d01b4.png"
+            ]
+          },
+          {
+            "id": 1671,
+            "list": [
+              ["Ukuran", "L"],
+              ["Warna", "Merah"]
+            ],
+            "stock": 5,
+            "price": 80000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/a2c70601-85e0-4b22-94d4-5a4519664ac0.png"
+            ]
+          },
+          {
+            "id": 1672,
+            "list": [
+              ["Ukuran", "L"],
+              ["Warna", "Grey"]
+            ],
+            "stock": 5,
+            "price": 80000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/a2c70601-85e0-4b22-94d4-5a4519664ac0.png"
+            ]
+          },
+          {
+            "id": 1673,
+            "list": [
+              ["Ukuran", "L"],
+              ["Warna", "Mint"]
+            ],
+            "stock": 5,
+            "price": 80000.0,
+            "imageUrl": [
+              "https://idekustatic.xyz/images/600/product-variant/a2c70601-85e0-4b22-94d4-5a4519664ac0.png"
+            ]
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "ukuran-banyak",
+        "stock": 45,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 387,
+        "title": "produk buyer",
+        "price": 1.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/cc3c558e-28b2-4619-bd25-abb5383c6fe1.png",
+        "categoryName": "Jeans",
+        "variants": [
+          {
+            "id": 1683,
+            "list": [
+              ["Warna", "Black"],
+              ["Ukuran", "All size"]
+            ],
+            "stock": 1,
+            "price": 1.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1684,
+            "list": [
+              ["Warna", "Navy"],
+              ["Ukuran", "All size"]
+            ],
+            "stock": 1,
+            "price": 1.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "produk-buyer",
+        "stock": 2,
+        "categoryId": 212,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 388,
+        "title": "Topi Baseball",
+        "price": 1.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/b8f986f5-4051-4872-a6d7-f2a7f320cab7.png",
+        "categoryName": "Topi",
+        "variants": [
+          {
+            "id": 1685,
+            "list": [
+              ["size", "xl"],
+              ["ukuran", "army"]
+            ],
+            "stock": 0,
+            "price": 1.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "topi-baseball",
+        "stock": 0,
+        "categoryId": 210,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 422,
+        "title": "tidak nyata",
+        "price": 110000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/24b68c7e-3622-40c8-a264-bad58d63c9a6.png",
+        "categoryName": "Topi",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "tidak-nyata",
+        "stock": 2,
+        "categoryId": 210,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 440,
+        "title": "Kemeja Maroon",
+        "price": 15000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/d7196064-4ad3-48fb-b1dc-20982a53b3ae.png",
+        "categoryName": "Formal",
+        "variants": [],
+        "wholesales": [
+          {
+            "minQty": 10,
+            "maxQty": 50,
+            "price": 14000
+          },
+          {
+            "minQty": 51,
+            "maxQty": 100,
+            "price": 10000
+          }
+        ],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "kemeja-maroon",
+        "stock": 90,
+        "categoryId": 259,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 441,
+        "title": "Kemeja Abu",
+        "price": 75000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/c7307107-3d69-4bcc-8d60-721e82598fa7.png",
+        "categoryName": "Formal",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "kemeja-abu",
+        "stock": 45,
+        "categoryId": 259,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 442,
+        "title": "Kemeja White",
+        "price": 10000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/4fd59632-72c3-461e-8b2a-d340ae43e0e9.png",
+        "categoryName": "Formal",
+        "variants": [],
+        "wholesales": [
+          {
+            "minQty": 5,
+            "maxQty": 5,
+            "price": 9000
+          },
+          {
+            "minQty": 6,
+            "maxQty": 15,
+            "price": 8000
+          }
+        ],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "kemeja-white",
+        "stock": 15,
+        "categoryId": 259,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 443,
+        "title": "Kemeja Navy",
+        "price": 12000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/9e614172-c572-41cb-9c00-6b534379407c.png",
+        "categoryName": "Formal",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "kemeja-navy",
+        "stock": 45,
+        "categoryId": 259,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 444,
+        "title": "Celana cargo",
+        "price": 15000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/d5c3cdea-5e82-40ec-99b9-fec2972fc834.png",
+        "categoryName": "Jeans",
+        "variants": [],
+        "wholesales": [
+          {
+            "minQty": 5,
+            "maxQty": 10,
+            "price": 14000
+          }
+        ],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "celana-cargo",
+        "stock": 155,
+        "categoryId": 212,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 445,
+        "title": "Celana Cargo Laki-Laki",
+        "price": 75000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/9287d5af-f9da-47b4-a587-b3319b1a169e.png",
+        "categoryName": "Jeans",
+        "variants": [
+          {
+            "id": 1932,
+            "list": [
+              ["warna", "grey"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 9,
+            "price": 75000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 1933,
+            "list": [
+              ["warna", "grey"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 10,
+            "price": 75000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 2084,
+            "list": [
+              ["warna", "grey"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 10,
+            "price": 75000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 2085,
+            "list": [
+              ["warna", " army"],
+              ["Ukuran", "S"]
+            ],
+            "stock": 10,
+            "price": 75000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 2086,
+            "list": [
+              ["warna", " army"],
+              ["Ukuran", "M"]
+            ],
+            "stock": 10,
+            "price": 75000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 2087,
+            "list": [
+              ["warna", " army"],
+              ["Ukuran", "L"]
+            ],
+            "stock": 10,
+            "price": 75000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [
+          {
+            "minQty": 15,
+            "maxQty": 60,
+            "price": 45000
+          }
+        ],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "celana-cargo-laki-laki",
+        "stock": 59,
+        "categoryId": 212,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 514,
+        "title": "Benhill Kemeja Wanita \" Seori\" Tops Lengan Panjang Puff Black 251",
+        "price": 1.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/276ff0e2-be77-474c-a40f-b1665324dba3.png",
+        "categoryName": "Kemeja",
+        "variants": [
+          {
+            "id": 2055,
+            "list": [["ukuran", "s"]],
+            "stock": 0,
+            "price": 1.0,
+            "imageUrl": []
+          },
+          {
+            "id": 2056,
+            "list": [["ukuran", "m"]],
+            "stock": 0,
+            "price": 1.0,
+            "imageUrl": []
+          },
+          {
+            "id": 2057,
+            "list": [["ukuran", "l"]],
+            "stock": 0,
+            "price": 1.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "benhill-kemeja-wanita--seori-tops-lengan-panjang-puff-black-251",
+        "stock": 1,
+        "categoryId": 255,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 587,
+        "title": "Rok Hijabers",
+        "price": 75000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/0d34d6dd-344c-4533-bc8c-35476526b4e8.png",
+        "categoryName": "Skirt",
+        "variants": [
+          {
+            "id": 2200,
+            "list": [["warna", "cream"]],
+            "stock": 10,
+            "price": 75000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "rok-hijabers",
+        "stock": 10,
+        "categoryId": 185,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 588,
+        "title": "Erigo",
+        "price": 75000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/6c0356cb-f851-4bc3-a4a4-5f1f827576d3.png",
+        "categoryName": "Baju",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "erigo",
+        "stock": 10,
+        "categoryId": 256,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 589,
+        "title": "Test Video",
+        "price": 65000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/7e276557-2f97-4ef4-8d0c-1c267279deea.png",
+        "categoryName": "DRESS",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "test-video",
+        "stock": 10,
+        "categoryId": 137,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 614,
+        "title": "test produk dan berat",
+        "price": 50000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/1bda3e69-0c27-4dde-9626-797f578ec265.png",
+        "categoryName": "Pants",
+        "variants": [
+          {
+            "id": 2177,
+            "list": [["ukuran", "s"]],
+            "stock": 6,
+            "price": 50000.0,
+            "imageUrl": []
+          },
+          {
+            "id": 2178,
+            "list": [["ukuran", "m"]],
+            "stock": 10,
+            "price": 50000.0,
+            "imageUrl": []
+          }
+        ],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "test-produk-dan-berat",
+        "stock": 16,
+        "categoryId": 161,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 624,
+        "title": "R cargo",
+        "price": 75000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/005f07a4-fb3b-4442-af3c-6f2869b946fb.png",
+        "categoryName": "Jeans",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "r-cargo",
+        "stock": 10,
+        "categoryId": 212,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdBy": "system-12s23dsk",
+        "id": 625,
+        "title": "C Cargo",
+        "price": 65000.0,
+        "thumbnailId": "https://idekustatic.xyz/images/full/product/823fc478-9658-4e0c-a061-a00728ac5258.png",
+        "categoryName": "Jeans",
+        "variants": [],
+        "wholesales": [],
+        "merchantSlug": "boutique-abc",
+        "titleSlug": "c-cargo",
+        "stock": 10,
+        "categoryId": 212,
+        "paymentType": "BY_IDEKU",
+        "favorite": false,
+        "promotionsType2": [
+          {
+            "id": 133,
+            "name": "Beli Produk Kemeja Gratis Jumlah Belanjaan",
+            "presentType": "PRESENT_BY_DISCOUNT_CART_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 5000,
+            "presentCanCombineOtherPromotion": false
+          },
+          {
+            "id": 134,
+            "name": "Beli Produk Gratis pengiriman",
+            "presentType": "PRESENT_BY_DISCOUNT_SHIPPING_AMOUNT",
+            "presentByProductId": 0,
+            "presentByProductWithVariantsId": [],
+            "presentByDiscountPercent": 0,
+            "presentByDiscountAmount": 10000,
+            "presentCanCombineOtherPromotion": false
+          }
+        ]
+      }
+    ],
+    "pageable": {
+      "sort": {
+        "sorted": true,
+        "unsorted": false,
+        "empty": false
+      },
+      "pageNumber": 0,
+      "pageSize": 1000,
+      "offset": 0,
+      "paged": true,
+      "unpaged": false
+    },
+    "last": true,
+    "totalElements": 53,
+    "totalPages": 1,
+    "sort": {
+      "sorted": true,
+      "unsorted": false,
+      "empty": false
+    },
+    "first": true,
+    "numberOfElements": 53,
+    "size": 1000,
+    "number": 0,
+    "empty": false
+  }
+}
