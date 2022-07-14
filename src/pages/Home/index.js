@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet, View, Text} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 import {colors} from '../../utils';
 
@@ -19,15 +19,14 @@ class Home extends Component {
   getProduct = () => {
     //GET request
     fetch(
-      'https://raw.githubusercontent.com/abiamarulloh/simple-ecommerce/master/api/products.json?token=GHSAT0AAAAAABUZMOQWGNMWAWKRXCWHNGF6YWPRVZQ',
+      'https://gitlab.com/abiamarulloh/simple-ecommerce/-/raw/master/api/products.json',
       {
         method: 'GET',
       },
     )
       .then(response => response.json())
       .then(result => {
-        console.log(result);
-        this.setState({products: result});
+        this.setState({products: result.data});
       })
       .catch(function (error) {
         console.log(
@@ -45,7 +44,7 @@ class Home extends Component {
         <View style={styles.page}>
           <View style={styles.container}>
             <ScrollView>
-              {/* {this.state.products.content.map(product => {
+              {this.state.products.content.map(product => {
                 return (
                   <>
                     <View style={styles.productItem}>
@@ -53,7 +52,7 @@ class Home extends Component {
                     </View>
                   </>
                 );
-              })} */}
+              })}
             </ScrollView>
           </View>
         </View>
