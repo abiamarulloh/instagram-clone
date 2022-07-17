@@ -1,7 +1,8 @@
 import React from 'react';
-import {StyleSheet, View, Text, TouchableOpacity, Image} from 'react-native';
+import {Dimensions, Image, StyleSheet, Text, View} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 import {connect} from 'react-redux';
+import {ICartEmpty} from '../../assets';
 import {colors, numberFormat} from '../../utils';
 
 class Cart extends React.Component {
@@ -32,41 +33,52 @@ class Cart extends React.Component {
 
   render() {
     const {cartTotal} = this.props;
-    console.log('ini halaman cart ', this.getCart());
+    console.log('ini halaman cart ', this.getCart().length);
     return (
       <View style={styles.page}>
         <View style={styles.container}>
-          <ScrollView>
-            <Text style={styles.titleHead}>Cart</Text>
+          <Text style={styles.titleHead}>Cart</Text>
+          {this.getCart().length > 0 ? (
+            <>
+              <ScrollView>
+                <View style={styles.products}>
+                  {this.getCart().map(product => {
+                    return (
+                      <View key={product.id} style={styles.productItem}>
+                        <Image
+                          style={styles.productImage}
+                          source={{uri: product.thumbnailId}}
+                        />
+                        <Text style={styles.productTitle}>{product.title}</Text>
+                        <View style={styles.productAction}>
+                          <Text style={styles.productPrice}>
+                            {numberFormat(product.price)}
+                          </Text>
 
+                          <Text style={styles.productPrice}>
+                            x{product.quantity}
+                          </Text>
+                        </View>
+                      </View>
+                    );
+                  })}
+                </View>
+                <View style={styles.total}>
+                  <Text style={styles.textTotal}>Total</Text>
+                  <Text style={styles.textTotal}>
+                    {numberFormat(cartTotal)}
+                  </Text>
+                </View>
+              </ScrollView>
+            </>
+          ) : (
             <View style={styles.products}>
-              {this.getCart().map(product => {
-                return (
-                  <View key={product.id} style={styles.productItem}>
-                    <Image
-                      style={styles.productImage}
-                      source={{uri: product.thumbnailId}}
-                    />
-                    <Text style={styles.productTitle}>{product.title}</Text>
-                    <View style={styles.productAction}>
-                      <Text style={styles.productPrice}>
-                        {numberFormat(product.price)}
-                      </Text>
-
-                      <Text style={styles.productPrice}>
-                        x{product.quantity}
-                      </Text>
-                    </View>
-                  </View>
-                );
-              })}
+              <View style={styles.productWrap}>
+                <ICartEmpty />
+                <Text style={styles.textCartEmpty}>Keranjang Kosong</Text>
+              </View>
             </View>
-
-            <View style={styles.total}>
-              <Text style={styles.textTotal}>Total</Text>
-              <Text style={styles.textTotal}>{numberFormat(cartTotal)}</Text>
-            </View>
-          </ScrollView>
+          )}
         </View>
       </View>
     );
@@ -79,6 +91,7 @@ const mapStateToProps = state => ({
 });
 export default connect(mapStateToProps)(Cart);
 
+const {Height} = Dimensions.get('window');
 const styles = StyleSheet.create({
   page: {
     backgroundColor: colors.secondary,
@@ -99,6 +112,7 @@ const styles = StyleSheet.create({
     color: colors.text.primary,
   },
   products: {
+    flex: 1,
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
@@ -141,5 +155,16 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginTop: 50,
     height: 30,
+  },
+  productWrap: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingBottom: 50,
+  },
+  textCartEmpty: {
+    marginTop: 18,
+    fontSize: 18,
   },
 });

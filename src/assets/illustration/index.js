@@ -7,6 +7,7 @@ import IDokterAnak from './ic-dokter-anak.svg';
 import IPsikiater from './ic-psikiater.svg';
 import IDokterObat from './ic-dokter-obat.svg';
 import IStarActive from './ic-star-active.svg';
+import ICartEmpty from './cart-empty.svg';
 
 export {
   ILLogo,
@@ -18,4 +19,5 @@ export {
   IDokterObat,
   IDokterAnak,
   IStarActive,
+  ICartEmpty
 };
