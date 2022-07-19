@@ -8,6 +8,7 @@ const initialState = {
 export default function (state = initialState, action) {
   switch (action.type) {
     case ADD_TO_CART:
+      console.log('asas', state);
       return {
         ...state,
         cart: [action.payload, ...state.cart],

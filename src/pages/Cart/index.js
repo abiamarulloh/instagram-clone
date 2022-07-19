@@ -1,5 +1,12 @@
 import React from 'react';
-import {Dimensions, Image, StyleSheet, Text, View} from 'react-native';
+import {
+  Dimensions,
+  Image,
+  StyleSheet,
+  Text,
+  View,
+  TouchableOpacity,
+} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 import {connect} from 'react-redux';
 import {ICartEmpty} from '../../assets';
@@ -12,7 +19,7 @@ class Cart extends React.Component {
 
   getCart() {
     const uniqueIds = [];
-    const count = {};
+    const count = [];
     const unique = this.props.cartItems.filter(cart => {
       const isDuplicate = uniqueIds.includes(cart.id);
       if (!isDuplicate) {
@@ -22,18 +29,14 @@ class Cart extends React.Component {
       }
 
       count[cart.id] = (count[cart.id] || 0) + 1;
+      cart.quantity = count[cart.id];
       return false;
-    });
-
-    unique.filter(uniqueItem => {
-      uniqueItem.quantity = count[uniqueItem.id];
     });
     return unique;
   }
 
   render() {
     const {cartTotal} = this.props;
-    console.log('ini halaman cart ', this.getCart().length);
     return (
       <View style={styles.page}>
         <View style={styles.container}>
@@ -56,7 +59,17 @@ class Cart extends React.Component {
                           </Text>
 
                           <Text style={styles.productPrice}>
-                            x{product.quantity}
+                            <TouchableOpacity style={styles.btnQty}>
+                              <Text style={styles.btnQtyText}>-</Text>
+                            </TouchableOpacity>
+                            <View>
+                              <Text style={styles.textQty}>
+                                {product.quantity}
+                              </Text>
+                            </View>
+                            <TouchableOpacity style={styles.btnQty}>
+                              <Text style={styles.btnQtyText}>+</Text>
+                            </TouchableOpacity>
                           </Text>
                         </View>
                       </View>
@@ -91,7 +104,6 @@ const mapStateToProps = state => ({
 });
 export default connect(mapStateToProps)(Cart);
 
-const {Height} = Dimensions.get('window');
 const styles = StyleSheet.create({
   page: {
     backgroundColor: colors.secondary,
@@ -166,5 +178,22 @@ const styles = StyleSheet.create({
   textCartEmpty: {
     marginTop: 18,
     fontSize: 18,
+  },
+  btnQty: {
+    width: 20,
+    height: 20,
+    backgroundColor: '#0984e3',
+    flexDirection: 'column',
+    alignItems: 'center',
+    borderRadius: 10,
+  },
+  btnQtyText: {
+    color: 'white',
+    fontWeight: 'bold',
+  },
+  textQty: {
+    marginLeft: 10,
+    marginRight: 10,
+    fontSize: 12,
   },
 });
