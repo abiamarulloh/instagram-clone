@@ -8,7 +8,6 @@ const initialState = {
 export default function (state = initialState, action) {
   switch (action.type) {
     case ADD_TO_CART:
-      console.log('asas', state);
       return {
         ...state,
         cart: [action.payload, ...state.cart],
@@ -24,7 +23,7 @@ export default function (state = initialState, action) {
       return {
         ...state,
         cart: state.cart.filter((item, i) => i !== action.payload.index),
-        total: state.total - action.payload.item.price,
+        total: state.total - action.payload.price,
       };
     default:
       return state;

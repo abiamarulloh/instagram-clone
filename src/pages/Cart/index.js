@@ -1,11 +1,11 @@
 import React from 'react';
 import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
-import DropDownPicker from 'react-native-dropdown-picker';
 import {ScrollView} from 'react-native-gesture-handler';
 import {connect} from 'react-redux';
-import {ICartEmpty} from '../../assets';
+import {ICartEmpty, IconTrash} from '../../assets';
 import {Button, Gap, Input} from '../../components';
 import {colors, fonts, numberFormat} from '../../utils';
+import {emptyCart, removeItem} from '../../redux/actions/cart';
 
 class Cart extends React.Component {
   constructor(props) {
@@ -46,30 +46,39 @@ class Cart extends React.Component {
   }
 
   getCart() {
-    const uniqueIds = [];
-    const count = [];
-    const unique = this.props.cartItems.filter(cart => {
-      const isDuplicate = uniqueIds.includes(cart.id);
-      if (!isDuplicate) {
-        uniqueIds.push(cart.id);
+    // const uniqueIds = [];
+    // const count = [];
+    // const unique = this.props.cartItems.filter(cart => {
+    //   const isDuplicate = uniqueIds.includes(cart.id);
+    //   if (!isDuplicate) {
+    //     uniqueIds.push(cart.id);
 
-        return true;
-      }
+    //     return true;
+    //   }
 
-      count[cart.id] = (count[cart.id] || 0) + 1;
-      cart.quantity = count[cart.id];
-      return false;
-    });
+    //   count[cart.id] = (count[cart.id] || 0) + 1;
+    //   cart.quantity = count[cart.id];
+    //   return false;
+    // });
     return this.props.cartItems;
+  }
+
+  removeToCart(product, index) {
+    product.index = index;
+    this.props.removeItem(product);
   }
 
   render() {
     const {cartTotal} = this.props;
-    const {open, value, items} = this.state;
     return (
       <View style={styles.page}>
         <View style={styles.container}>
-          <Text style={styles.titleHead}>Cart</Text>
+          <View style={styles.header}>
+            <Text style={styles.titleHead}>Cart</Text>
+            <TouchableOpacity onPress={() => this.props.emptyCart()}>
+              <Text style={styles.emptyCartAct}>Kosongkan Keranjang</Text>
+            </TouchableOpacity>
+          </View>
           {this.getCart().length > 0 ? (
             <>
               <ScrollView>
@@ -91,7 +100,11 @@ class Cart extends React.Component {
                             </Text>
 
                             <Text style={styles.productPrice}>
-                              <TouchableOpacity style={styles.btnQty}>
+                              <TouchableOpacity
+                                onPress={() => {
+                                  this.removeToCart(product, index);
+                                }}
+                                style={styles.btnQty}>
                                 <Text style={styles.btnQtyText}>-</Text>
                               </TouchableOpacity>
                             </Text>
@@ -155,7 +168,7 @@ const mapStateToProps = state => ({
   cartItems: state.cart.cart,
   cartTotal: state.cart.total,
 });
-export default connect(mapStateToProps)(Cart);
+export default connect(mapStateToProps, {removeItem, emptyCart})(Cart);
 
 const styles = StyleSheet.create({
   page: {
@@ -170,11 +183,21 @@ const styles = StyleSheet.create({
     borderBottomLeftRadius: 24,
     borderBottomRightRadius: 24,
   },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 20,
+  },
   titleHead: {
     fontSize: 20,
-    fontFamily: 'bold',
-    marginBottom: 20,
+    fontFamily: fonts.primary[400],
     color: colors.text.primary,
+  },
+  emptyCartAct: {
+    fontSize: 16,
+    fontFamily: fonts.primary[800],
+    color: colors.text.secondary,
   },
   products: {
     flex: 1,
