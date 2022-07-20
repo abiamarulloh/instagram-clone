@@ -3,7 +3,7 @@ import {Image, StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 import {connect} from 'react-redux';
 import {addToCart} from '../../redux/actions/cart';
-import {colors, numberFormat} from '../../utils';
+import {colors, fonts, numberFormat} from '../../utils';
 
 class Home extends React.Component {
   constructor(props) {
@@ -44,7 +44,7 @@ class Home extends React.Component {
       <>
         <View style={styles.page}>
           <View style={styles.container}>
-            <Text style={styles.titleHead}>Amarabi Store</Text>
+            <Text style={styles.titleHead}>Amarabi</Text>
             <ScrollView>
               <View style={styles.products}>
                 {this.state.products.map((product, index) => {
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
   },
   titleHead: {
     fontSize: 20,
-    fontFamily: 'bold',
+    fontFamily: fonts.primary[200],
     marginBottom: 20,
     color: colors.text.primary,
   },
@@ -116,6 +116,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     marginTop: 10,
     height: 30,
+    fontFamily: fonts.primary[600],
   },
   productImage: {
     width: 180,
@@ -124,6 +125,7 @@ const styles = StyleSheet.create({
   },
   productPrice: {
     fontSize: 12,
+    fontFamily: fonts.primary[600],
   },
   productAction: {
     flexDirection: 'row',
@@ -132,6 +134,7 @@ const styles = StyleSheet.create({
   },
   productATC: {
     fontSize: 12,
-    fontWeight: 'bold',
+    fontFamily: fonts.primary[900],
+    color: colors.secondary,
   },
 });

@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     padding: 12,
   },
   label: {
-    fontSize: 16,
+    fontSize: 14,
     color: colors.text.secondary,
     marginBottom: 6,
     fontFamily: fonts.primary[400],

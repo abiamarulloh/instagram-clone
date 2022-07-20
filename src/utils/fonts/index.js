@@ -9,4 +9,14 @@ export const fonts = {
     900: 'Nunito-Black',
     normal: 'Nunito-Regular',
   },
+  secondary: {
+    200: 'Montserrat-ExtraLight',
+    300: 'Montserrat-Light',
+    400: 'Montserrat-Regular',
+    600: 'Montserrat-SemiBold',
+    700: 'Montserrat-Bold',
+    800: 'Montserrat-ExtraBold',
+    900: 'Montserrat-Black',
+    normal: 'Nunito-Regular',
+  },
 };

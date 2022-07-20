@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Image, StyleSheet, Text, View} from 'react-native';
 import {connect} from 'react-redux';
 import {ILLogo} from '../../assets';
 import {Button, Gap, Input, Link} from '../../components';
@@ -12,7 +12,6 @@ const Login = ({navigation}) => {
   useEffect(() => {}, []);
 
   const changeEmail = text => {
-    console.log(text)
     setEmail(text);
   };
 
@@ -21,14 +20,13 @@ const Login = ({navigation}) => {
   };
 
   const handleLogin = () => {
-    // console.log(email, password);
-    // navigation.replace('MainApp')
-  } 
+    navigation.replace('MainApp');
+  };
 
   return (
     <View style={styles.page}>
-      <ILLogo />
-      <Text style={styles.title}>Masuk dan mulai berkonsultasi</Text>
+      <Image source={ILLogo} style={styles.logo} />
+      <Text style={styles.title}>Masuk dan mulai berbelanja</Text>
       <Input label="Email Address" value={email} setValue={changeEmail} />
       <Gap height={24} />
       <Input label="Password" value={password} setValue={changePassword} />
@@ -37,7 +35,12 @@ const Login = ({navigation}) => {
       <Gap height={40} />
       <Button title="Sign In" onPress={() => handleLogin()} />
       <Gap height={30} />
-      <Link title="Create My Account" align="center" />
+      <Link
+        title="Create My Account"
+        align="center"
+        navigation={navigation}
+        url="Register"
+      />
     </View>
   );
 };
@@ -54,12 +57,17 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 40,
   },
+  logo: {
+    width: 100,
+    height: 100,
+    marginLeft: -20,
+  },
   title: {
     fontSize: 20,
     fontFamily: fonts.primary[600],
-    marginTop: 40,
+    marginTop: 10,
     color: colors.text.primary,
     marginBottom: 40,
-    width: 150,
+    width: 200,
   },
 });

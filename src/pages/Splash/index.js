@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, Image} from 'react-native';
 import {ILLogo} from '../../assets';
-import {colors} from '../../utils';
+import {colors, fonts} from '../../utils';
 
 const Splash = ({navigation}) => {
   useEffect(() => {
@@ -11,8 +11,9 @@ const Splash = ({navigation}) => {
   });
   return (
     <View style={styles.page}>
-      <ILLogo />
-      <Text style={styles.text}>My Doctor</Text>
+      <Image source={ILLogo} style={styles.logo} />
+      <Text style={styles.title}>Amarabi</Text>
+      <Text style={styles.desc}>belanja kebutuhan stylish anak muda</Text>
     </View>
   );
 };
@@ -21,15 +22,24 @@ export default Splash;
 
 const styles = StyleSheet.create({
   page: {
-    backgroundColor: 'white',
+    backgroundColor: '#FCF9F5',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  text: {
+  logo: {
+    width: 200,
+    height: 200,
+  },
+  title: {
     fontSize: 20,
-    fontWeight: '600',
+    fontFamily: fonts.secondary[600],
     color: colors.text.primary,
-    marginTop: 20,
+  },
+  desc: {
+    fontSize: 16,
+    fontFamily: fonts.secondary[400],
+    color: colors.text.primary,
+    marginTop: 10,
   },
 });

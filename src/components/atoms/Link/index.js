@@ -1,12 +1,13 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {Text, StyleSheet} from 'react-native';
+import {TouchableOpacity} from 'react-native-gesture-handler';
 import {colors} from '../../../utils';
 
-const Link = ({title, fontSize, align}) => {
+const Link = ({title, fontSize, align, navigation, url}) => {
   return (
-    <View>
+    <TouchableOpacity onPress={e => navigation.navigate(url)}>
       <Text style={styles.text(fontSize, align)}>{title}</Text>
-    </View>
+    </TouchableOpacity>
   );
 };
 
