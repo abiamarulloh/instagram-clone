@@ -2,11 +2,15 @@ import React from 'react';
 import {View, Text, TextInput, StyleSheet} from 'react-native';
 import {colors, fonts} from '../../../utils';
 
-const Input = ({label}) => {
+const Input = ({label, currentValue, setCurrentValue}) => {
   return (
     <View>
       <Text style={styles.label}>{label}</Text>
-      <TextInput style={styles.input} />
+      <TextInput
+        style={styles.input}
+        onChangeText={e => setCurrentValue(e)}
+        defaultValue={currentValue}
+      />
     </View>
   );
 };

@@ -1,28 +1,29 @@
 import React from 'react';
-import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {
+  Image,
+  StyleSheet,
+  Text,
+  ToastAndroid,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 import {connect} from 'react-redux';
-import {ICartEmpty, IconTrash} from '../../assets';
+import {ICartEmpty} from '../../assets';
 import {Button, Gap, Input} from '../../components';
 import {colors, fonts, numberFormat} from '../../utils';
 import {emptyCart, removeItem} from '../../redux/actions/cart';
+import {addOrder} from '../../redux/actions/orderAction';
 
 class Cart extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      open: false,
-      value: null,
-      items: [
-        {
-          label: 'COD',
-          value: 1,
-        },
-        {
-          label: 'Kurir',
-          value: 2,
-        },
-      ],
+      fullName: '',
+      numberPhone: '',
+      email: '',
+      noteToSeller: '',
+      address: '',
     };
     this.setValue = this.setValue.bind(this);
   }
@@ -46,26 +47,47 @@ class Cart extends React.Component {
   }
 
   getCart() {
-    // const uniqueIds = [];
-    // const count = [];
-    // const unique = this.props.cartItems.filter(cart => {
-    //   const isDuplicate = uniqueIds.includes(cart.id);
-    //   if (!isDuplicate) {
-    //     uniqueIds.push(cart.id);
-
-    //     return true;
-    //   }
-
-    //   count[cart.id] = (count[cart.id] || 0) + 1;
-    //   cart.quantity = count[cart.id];
-    //   return false;
-    // });
     return this.props.cartItems;
   }
 
   removeToCart(product, index) {
     product.index = index;
     this.props.removeItem(product);
+  }
+
+  pay() {
+    const {fullName, numberPhone, noteToSeller, email, address} = this.state;
+    const {cartItems, navigation, addOrder, emptyCart} = this.props;
+    if (!fullName) {
+      this.alert('Nama Lengkap harus dilengkapi!');
+    }
+
+    if (!numberPhone) {
+      this.alert('Nomor telephone harus dilengkapi!');
+    }
+
+    if (!address) {
+      this.alert('Alamat harus dilengkapi!');
+    }
+
+    let customer = {fullName, numberPhone, noteToSeller, email, address};
+    addOrder({cartItems: cartItems, customer: customer});
+    emptyCart();
+    this.setState({fullName: ''});
+    this.setState({numberPhone: ''});
+    this.setState({noteToSeller: ''});
+    this.setState({email: ''});
+    this.setState({address: ''});
+  }
+
+  alert(message) {
+    ToastAndroid.showWithGravityAndOffset(
+      message,
+      ToastAndroid.LONG,
+      ToastAndroid.BOTTOM,
+      25,
+      50,
+    );
   }
 
   render() {
@@ -115,13 +137,39 @@ class Cart extends React.Component {
                   })}
                 </View>
                 <View style={styles.form}>
-                  <Input label="Pesan untuk penjual" />
+                  <Input
+                    label="Pesan untuk penjual"
+                    currentValue={this.props.noteToSeller}
+                    setCurrentValue={value =>
+                      this.setState({noteToSeller: value})
+                    }
+                  />
                   <Gap height={50} />
-                  <Input label="Nama Lengkap" />
+                  <Input
+                    label="Nama Lengkap"
+                    currentValue={this.props.fullName}
+                    setCurrentValue={value => this.setState({fullName: value})}
+                  />
                   <Gap height={10} />
-                  <Input label="Nomor telephone" />
+                  <Input
+                    label="Nomor telephone"
+                    currentValue={this.props.numberPhone}
+                    setCurrentValue={value =>
+                      this.setState({numberPhone: value})
+                    }
+                  />
                   <Gap height={10} />
-                  <Input label="Alamat Rumah" />
+                  <Input
+                    label="Email"
+                    currentValue={this.props.email}
+                    setCurrentValue={value => this.setState({email: value})}
+                  />
+                  <Gap height={10} />
+                  <Input
+                    label="Alamat Rumah"
+                    currentValue={this.props.address}
+                    setCurrentValue={value => this.setState({address: value})}
+                  />
                   <Gap height={10} />
                   {/* <DropDownPicker
                     open={open}
@@ -146,7 +194,11 @@ class Cart extends React.Component {
                     {numberFormat(cartTotal)}
                   </Text>
                 </View>
-                <Button title="Bayar" type="submit" />
+                <Button
+                  title="Bayar"
+                  onPress={() => this.pay()}
+                  type="submit"
+                />
                 <Gap height={30} />
               </ScrollView>
             </>
@@ -168,7 +220,9 @@ const mapStateToProps = state => ({
   cartItems: state.cart.cart,
   cartTotal: state.cart.total,
 });
-export default connect(mapStateToProps, {removeItem, emptyCart})(Cart);
+export default connect(mapStateToProps, {addOrder, removeItem, emptyCart})(
+  Cart,
+);
 
 const styles = StyleSheet.create({
   page: {
