@@ -7,6 +7,8 @@ import {
   IconCart,
   IconProfileActive,
   IconProfile,
+  IconReceipt,
+  IconReceiptActive,
 } from '../../../assets';
 import {colors, fonts} from '../../../utils';
 
@@ -18,6 +20,10 @@ const TabItem = ({title, isActive, onPress, onLongPress}) => {
 
     if (title === 'Cart') {
       return isActive ? <IconCartActive /> : <IconCart />;
+    }
+
+    if (title === 'Receipt') {
+      return isActive ? <IconReceiptActive /> : <IconReceipt />;
     }
 
     if (title === 'Profile') {

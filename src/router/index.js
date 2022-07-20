@@ -8,6 +8,7 @@ import {
   Home,
   Profile,
   Cart,
+  Receipt,
 } from '../pages';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {BottomNavigator} from '../components';
@@ -22,6 +23,7 @@ const MainApp = () => {
       screenOptions={{headerShown: false}}>
       <Tab.Screen name="Home" component={Home} />
       <Tab.Screen name="Cart" component={Cart} />
+      <Tab.Screen name="Receipt" component={Receipt} />
       <Tab.Screen name="Profile" component={Profile} />
     </Tab.Navigator>
   );

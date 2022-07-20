@@ -4,6 +4,8 @@ import IconHomeActive from './ic-home-active.svg';
 import IconHome from './ic-home.svg';
 import IconProfileActive from './ic-profile-active.svg';
 import IconProfile from './ic-profile.svg';
+import IconReceipt from './ic-receipt.svg';
+import IconReceiptActive from './ic-receipt-active.svg';
 
 export {
   IconHomeActive,
@@ -12,4 +14,6 @@ export {
   IconCart,
   IconProfileActive,
   IconProfile,
+  IconReceipt,
+  IconReceiptActive,
 };

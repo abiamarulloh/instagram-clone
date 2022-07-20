@@ -5,5 +5,6 @@ import Login from './Login';
 import Profile from './Profile';
 import Register from './Register';
 import Splash from './Splash';
+import Receipt from './Receipt';
 
-export {Splash, GetStarted, Login, Register, Home, Profile, Cart};
+export {Splash, GetStarted, Login, Register, Home, Profile, Cart, Receipt};
