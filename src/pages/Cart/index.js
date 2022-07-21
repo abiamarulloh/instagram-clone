@@ -70,7 +70,15 @@ class Cart extends React.Component {
       this.alert('Alamat harus dilengkapi!');
     }
 
-    let customer = {fullName, numberPhone, noteToSeller, email, address};
+    let orderTime = new Date().toLocaleString();
+    let customer = {
+      fullName,
+      numberPhone,
+      noteToSeller,
+      email,
+      address,
+      orderTime,
+    };
     addOrder({cartItems: cartItems, customer: customer});
     emptyCart();
     this.setState({fullName: ''});
@@ -78,6 +86,7 @@ class Cart extends React.Component {
     this.setState({noteToSeller: ''});
     this.setState({email: ''});
     this.setState({address: ''});
+    navigation.navigate('ReceiptDetail');
   }
 
   alert(message) {
@@ -171,15 +180,6 @@ class Cart extends React.Component {
                     setCurrentValue={value => this.setState({address: value})}
                   />
                   <Gap height={10} />
-                  {/* <DropDownPicker
-                    open={open}
-                    value={value}
-                    items={items}
-                    setOpen={this.setOpen}
-                    setValue={this.setValue}
-                    setItems={this.setItems}
-                    theme="DARK"
-                  /> */}
                 </View>
                 <View style={styles.divider} />
                 <View style={styles.total}>

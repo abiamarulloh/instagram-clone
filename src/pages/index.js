@@ -6,5 +6,16 @@ import Profile from './Profile';
 import Register from './Register';
 import Splash from './Splash';
 import Receipt from './Receipt';
+import ReceiptDetail from './ReceiptDetail';
 
-export {Splash, GetStarted, Login, Register, Home, Profile, Cart, Receipt};
+export {
+  Splash,
+  GetStarted,
+  Login,
+  Register,
+  Home,
+  Profile,
+  Cart,
+  Receipt,
+  ReceiptDetail,
+};

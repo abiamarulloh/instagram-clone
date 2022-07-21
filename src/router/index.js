@@ -9,6 +9,7 @@ import {
   Profile,
   Cart,
   Receipt,
+  ReceiptDetail,
 } from '../pages';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {BottomNavigator} from '../components';
@@ -49,10 +50,14 @@ const Router = () => {
         options={{headerShown: false}}
       />
 
+      <Stack.Screen name="ReceiptDetail" component={ReceiptDetail} />
+
       <Stack.Screen
         name="Register"
         component={Register}
-        options={{headerShown: false}}
+        screenOptions={{
+          headerShown: false,
+        }}
       />
 
       <Stack.Screen

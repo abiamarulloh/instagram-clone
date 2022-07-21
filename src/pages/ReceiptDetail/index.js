@@ -1,12 +1,12 @@
 import React from 'react';
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 import {connect} from 'react-redux';
 import {IReceiptEmpty} from '../../assets';
 import {Gap} from '../../components';
-import {colors, fonts} from '../../utils';
+import {colors, fonts, numberFormat} from '../../utils';
 
-class Receipt extends React.Component {
+class ReceiptDetail extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -26,7 +26,7 @@ class Receipt extends React.Component {
       <View style={styles.page}>
         <View style={styles.container}>
           <View style={styles.header}>
-            <Text style={styles.titleHead}>Order</Text>
+            <Text style={styles.titleHead}>Order detail</Text>
             <TouchableOpacity onPress={() => navigation.navigate('Home')}>
               <Text style={styles.emptyCartAct}>Lanjut belanja</Text>
             </TouchableOpacity>
@@ -34,18 +34,64 @@ class Receipt extends React.Component {
           {cartItems.length > 0 ? (
             <>
               <ScrollView>
-                {cartItems.length > 0 ? (
-                  <TouchableOpacity
-                    onPress={() => navigation.navigate('ReceiptDetail')}
-                    style={styles.history}>
-                    <Text style={styles.historyItemTitle}>
-                      Menunggu Pembayaran
-                    </Text>
-                    <Text style={styles.historyItemDesc}>
-                      {customer.orderTime}
-                    </Text>
-                  </TouchableOpacity>
-                ) : null}
+                <View style={styles.products}>
+                  {cartItems.map((product, index) => {
+                    return (
+                      <View key={index} style={styles.productItem}>
+                        <Image
+                          style={styles.productImage}
+                          source={{uri: product.thumbnailId}}
+                        />
+                        <View style={styles.productItemRight}>
+                          <Text style={styles.productTitle}>
+                            {product.title}
+                          </Text>
+                          <View style={styles.productAction}>
+                            <Text style={styles.productPrice}>
+                              {numberFormat(product.price)}
+                            </Text>
+                          </View>
+                        </View>
+                      </View>
+                    );
+                  })}
+                </View>
+                <View style={styles.divider} />
+                <View style={styles.customerInfo}>
+                  <Text style={styles.titleCustomerInfo}>Nama Lengkap</Text>
+                  <Text style={styles.descCustomerInfo}>
+                    {customer.fullName}
+                  </Text>
+                </View>
+                <View style={styles.customerInfo}>
+                  <Text style={styles.titleCustomerInfo}>Nomor Telephone</Text>
+                  <Text style={styles.descCustomerInfo}>
+                    {customer.numberPhone}
+                  </Text>
+                </View>
+                <View style={styles.customerInfo}>
+                  <Text style={styles.titleCustomerInfo}>Email</Text>
+                  <Text style={styles.descCustomerInfo}>{customer.email}</Text>
+                </View>
+                <View style={styles.customerInfo}>
+                  <Text style={styles.titleCustomerInfo}>Alamat Rumah</Text>
+                  <Text style={styles.descCustomerInfo}>
+                    {customer.address}
+                  </Text>
+                </View>
+                <View style={styles.divider} />
+                <View style={styles.total}>
+                  <Text style={styles.textTotal}>Banyaknya pembelian</Text>
+                  <Text style={styles.textTotal}>
+                    {this.props.cartItems.length} Item
+                  </Text>
+                </View>
+                <View style={styles.total}>
+                  <Text style={styles.textTotal}>Total</Text>
+                  <Text style={styles.textTotal}>
+                    {numberFormat(this.handleGetTotal(cartItems))}
+                  </Text>
+                </View>
                 <Gap height={30} />
               </ScrollView>
             </>
@@ -67,7 +113,7 @@ const mapStateToProps = state => ({
   cartItems: state.order.order.items,
   customer: state.order.order.customer,
 });
-export default connect(mapStateToProps)(Receipt);
+export default connect(mapStateToProps)(ReceiptDetail);
 
 const styles = StyleSheet.create({
   page: {
@@ -181,24 +227,6 @@ const styles = StyleSheet.create({
     fontFamily: fonts.primary[800],
   },
   descCustomerInfo: {
-    fontFamily: fonts.primary[600],
-  },
-  history: {
-    borderWidth: 1,
-    borderColor: colors.secondary,
-    paddingHorizontal: 10,
-    paddingBottom: 10,
-    paddingTop: 10,
-    borderRadius: 10,
-    marginBottom: 10,
-  },
-  historyItemTitle: {
-    fontSize: 15,
-    fontFamily: fonts.primary[800],
-    color: colors.secondary,
-  },
-  historyItemDesc: {
-    fontSize: 15,
     fontFamily: fonts.primary[600],
   },
 });

@@ -1,6 +1,7 @@
 import React from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import {StyleSheet, View, Text, TouchableOpacity} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
+import {connect} from 'react-redux';
 import {Gap} from '../../components';
 import {colors, fonts} from '../../utils';
 
@@ -10,35 +11,47 @@ class Profile extends React.Component {
   }
 
   render() {
+    const {customer, cartItems, navigation} = this.props;
     return (
-      <>
-        <View style={styles.page}>
-          <View style={styles.container}>
-            <ScrollView>
-              <Text style={styles.titleHead}>Profile</Text>
-              <Gap height={20} />
-              <Text style={styles.title}>Hi, Abi Amarulloh</Text>
-              <Text style={styles.desc}>+62 89533-7813-520</Text>
+      <View style={styles.page}>
+        <View style={styles.container}>
+          <ScrollView>
+            <Text style={styles.titleHead}>Profile</Text>
+            <Gap height={20} />
+            <Text style={styles.title}>Hi, Abi Amarulloh</Text>
+            <Text style={styles.desc}>+62 89533-7813-520</Text>
 
-              <Gap height={50} />
-              <Text style={styles.title}>Riwayat belanja</Text>
-              <View style={styles.history}>
+            <Gap height={50} />
+            <Text style={styles.title}>Riwayat belanja</Text>
+            {cartItems.length > 0 ? (
+              <TouchableOpacity
+                style={styles.history}
+                onPress={() => navigation.navigate('ReceiptDetail')}>
                 <Text style={styles.historyItemTitle}>Menunggu Pembayaran</Text>
-                <Text style={styles.historyItemDesc}>Selasa 19 Jul 07.45</Text>
-              </View>
-              <View style={styles.history}>
-                <Text style={styles.historyItemTitle}>Transaksi Selesai</Text>
-                <Text style={styles.historyItemDesc}>Rabu 20 Jul 22.43</Text>
-              </View>
-            </ScrollView>
-          </View>
+                <Text style={styles.historyItemDesc}>{customer.orderTime}</Text>
+              </TouchableOpacity>
+            ) : null}
+
+            <View style={styles.history}>
+              <Text style={styles.historyItemTitle}>Menunggu Pembayaran</Text>
+              <Text style={styles.historyItemDesc}>6/22/2022, 2:59:00 PM</Text>
+            </View>
+            <View style={styles.history}>
+              <Text style={styles.historyItemTitle}>Transaksi Selesai</Text>
+              <Text style={styles.historyItemDesc}>4/22/2022, 2:59:00 PM</Text>
+            </View>
+          </ScrollView>
         </View>
-      </>
+      </View>
     );
   }
 }
 
-export default Profile;
+const mapStateToProps = state => ({
+  cartItems: state.order.order.items,
+  customer: state.order.order.customer,
+});
+export default connect(mapStateToProps)(Profile);
 const styles = StyleSheet.create({
   page: {
     backgroundColor: colors.secondary,
