@@ -22,6 +22,8 @@ const styles = StyleSheet.create({
     borderColor: colors.border,
     borderRadius: 10,
     padding: 12,
+    fontFamily: fonts.primary[400],
+    color: colors.black,
   },
   label: {
     fontSize: 14,

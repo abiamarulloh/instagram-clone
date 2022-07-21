@@ -75,11 +75,13 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontFamily: fonts.primary[800],
     marginBottom: 10,
+    color: colors.text.secondary,
   },
   desc: {
     fontSize: 15,
     fontFamily: fonts.primary[600],
     marginBottom: 10,
+    color: colors.text.secondary,
   },
   history: {
     borderWidth: 1,
@@ -98,5 +100,6 @@ const styles = StyleSheet.create({
   historyItemDesc: {
     fontSize: 15,
     fontFamily: fonts.primary[600],
+    color: colors.text.secondary,
   },
 });

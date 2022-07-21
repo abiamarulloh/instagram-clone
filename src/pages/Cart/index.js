@@ -270,6 +270,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     height: 30,
     fontFamily: fonts.primary[600],
+    color: colors.text.secondary,
   },
   productImage: {
     width: 50,
@@ -279,6 +280,7 @@ const styles = StyleSheet.create({
   productPrice: {
     fontSize: 12,
     fontFamily: fonts.primary[600],
+    color: colors.text.secondary,
   },
   productAction: {
     flexDirection: 'row',
@@ -328,5 +330,6 @@ const styles = StyleSheet.create({
     marginRight: 10,
     fontSize: 12,
     fontFamily: fonts.primary[600],
+    color: colors.text.secondary,
   },
 });
