@@ -189,6 +189,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     marginBottom: 5,
     fontFamily: fonts.primary[600],
+    color: colors.text.secondary,
     height: 30,
   },
   productWrap: {

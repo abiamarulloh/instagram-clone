@@ -206,5 +206,6 @@ const styles = StyleSheet.create({
   historyItemDesc: {
     fontSize: 15,
     fontFamily: fonts.primary[600],
+    color: colors.text.secondary,
   },
 });
