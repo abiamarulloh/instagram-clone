@@ -18,7 +18,7 @@ const Register = ({navigation}) => {
         <Gap height={40} />
         <Button
           title="Continue"
-          onPress={() => navigation.navigate('UploadPhoto')}
+          onPress={() => navigation.navigate('MainApp')}
         />
       </View>
     </View>

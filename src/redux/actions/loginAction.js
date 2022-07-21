@@ -1,5 +1,8 @@
 import {LOGIN} from './types';
-export const loginAction = login_action => ({
-  type: LOGIN,
-  payload: login_action,
-});
+
+export const loginAction = data => dispatch => {
+  dispatch({
+    type: LOGIN,
+    payload: data,
+  });
+};
