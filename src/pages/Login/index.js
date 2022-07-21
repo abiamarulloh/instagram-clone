@@ -27,16 +27,6 @@ class Login extends React.Component {
       return false;
     }
 
-    if (email !== 'abiamarulloh06@gmail.com') {
-      this.alert('Email salah!');
-      return false;
-    }
-
-    if (password !== 'admin') {
-      this.alert('Password salah!');
-      return false;
-    }
-
     this.props.loginAction({email: email, password: password});
     this.setState({email: ''});
     this.setState({password: ''});
