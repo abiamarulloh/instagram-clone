@@ -60,14 +60,17 @@ class Cart extends React.Component {
     const {cartItems, navigation, addOrder, emptyCart} = this.props;
     if (!fullName) {
       this.alert('Nama Lengkap harus dilengkapi!');
+      return false;
     }
 
     if (!numberPhone) {
       this.alert('Nomor telephone harus dilengkapi!');
+      return false;
     }
 
     if (!address) {
       this.alert('Alamat harus dilengkapi!');
+      return false;
     }
 
     let orderTime = new Date().toLocaleString();

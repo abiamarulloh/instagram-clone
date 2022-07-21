@@ -50,14 +50,16 @@ const Router = () => {
         options={{headerShown: false}}
       />
 
-      <Stack.Screen name="ReceiptDetail" component={ReceiptDetail} />
+      <Stack.Screen
+        name="ReceiptDetail"
+        component={ReceiptDetail}
+        options={{headerShown: false}}
+      />
 
       <Stack.Screen
         name="Register"
         component={Register}
-        screenOptions={{
-          headerShown: false,
-        }}
+        options={{headerShown: false}}
       />
 
       <Stack.Screen

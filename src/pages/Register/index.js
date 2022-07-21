@@ -10,7 +10,7 @@ const Register = ({navigation}) => {
       <View style={styles.content}>
         <Input label="Full Name" labelSize={16} labelColor="#7D8797" />
         <Gap height={24} />
-        <Input label="Pekerjaan" labelSize={16} labelColor="#7D8797" />
+        <Input label="Number Phone" labelSize={16} labelColor="#7D8797" />
         <Gap height={24} />
         <Input label="Email Address" labelSize={16} labelColor="#7D8797" />
         <Gap height={24} />

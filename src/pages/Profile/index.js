@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, View, Text, TouchableOpacity} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 import {connect} from 'react-redux';
-import {Gap} from '../../components';
+import {Button, Gap} from '../../components';
 import {colors, fonts} from '../../utils';
 
 class Profile extends React.Component {
@@ -40,6 +40,12 @@ class Profile extends React.Component {
               <Text style={styles.historyItemTitle}>Transaksi Selesai</Text>
               <Text style={styles.historyItemDesc}>4/22/2022, 2:59:00 PM</Text>
             </View>
+            <Gap height={40} />
+            <Button
+              type="button"
+              title="Keluar"
+              onPress={e => navigation.navigate('Login')}
+            />
           </ScrollView>
         </View>
       </View>

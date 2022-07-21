@@ -38,6 +38,8 @@ class Login extends React.Component {
     }
 
     this.props.loginAction({email: email, password: password});
+    this.setState({email: ''});
+    this.setState({password: ''});
     navigation.replace('MainApp');
   };
 
